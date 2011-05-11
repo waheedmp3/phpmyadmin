@@ -88,7 +88,7 @@ function PMA_setFrameSize()
 {
     pma_navi_width = PMA_getCookie('pma_navi_width');
     //alert('from cookie: ' + typeof(pma_navi_width) + ' : ' + pma_navi_width);
-    if (pma_navi_width != null) {
+    if (pma_navi_width != null && parent.document != document) {
         if (parent.text_dir == 'ltr') {
             parent.document.getElementById('mainFrameset').cols = pma_navi_width + ',*';
         } else {
@@ -141,34 +141,40 @@ function PMA_setCookie(name, value, expires, path, domain, secure) {
 /**
  * hide all LI elements with second A tag which doesn`t contain requested value
  *
- *	@param   string  value    requested value
+ * @param   string  value    requested value
  *
  */
 function fast_filter(value){
-	var oTarget = document.getElementById("subel0");
-	if(!oTarget || !document.getElementById('fast_filter')) return false;
-	if(value!=document.getElementById('fast_filter').value) return false;
-	document.getElementById('fast_filter').disabled=true;
-	for(var iCh in oTarget.childNodes){
-		var oCh = oTarget.childNodes.item(iCh);
-		if(!oCh) continue;
-		if(oCh.nodeName=="LI"){
-			if(value=="") oCh.style.display="";
-			else{
-				var i=0;
-				for(var iA in oCh.childNodes){
-					var oA = oCh.childNodes.item(iA);
-					if(!oA) continue;
-					if(oA.nodeName=="A"){
-						if(i==0) i = 1;
-						else{
-							if(oA.innerHTML.indexOf(value)==-1) oCh.style.display="none";
-							else oCh.style.display="";
-						}
-					}
-				}
-			}
-		}
-	}
-	document.getElementById('fast_filter').disabled=false;
+    $("#subel0 a[class!='tableicon']").each(function(idx,elem){
+        $elem = $(elem);
+        if (value && $elem.html().indexOf(value) == -1) {
+            $elem.parent().hide();
+        } else {
+            $elem.parent().show();
+        }
+    });
 }
+
+/**
+ * Clears fast filter.
+ */
+function clear_fast_filter() {
+    var elm = $('#NavFilter input');
+    elm.val('');
+    fast_filter('');
+    elm.focus();
+}
+
+/* Performed on load */
+$(document).ready(function(){
+    /* Display filter */
+    $('#NavFilter').css('display', 'inline');
+    $('input[id="fast_filter"]').focus(function() {
+        if($(this).attr("value") === "filter tables by name") {
+            clear_fast_filter();
+        }
+    });
+    $('#clear_fast_filter').click(clear_fast_filter);
+    $('#fast_filter').focus(function (evt) {evt.target.select();});
+    $('#fast_filter').keyup(function (evt) {fast_filter(evt.target.value);});
+});
