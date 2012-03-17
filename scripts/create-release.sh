@@ -110,13 +110,6 @@ LC_ALL=C w3m -dump Documentation.html > Documentation.txt
 
 # Check for gettext support
 if [ -d po ] ; then
-    GETTEXT=1
-else
-    GETTEXT=0
-fi
-
-# Generate mo files
-if [ $GETTEXT -eq 1 ] ; then
     echo "* Generating mo files"
     ./scripts/generate-mo
     if [ -f ./scripts/remove-incomplete-mo ] ; then
@@ -139,13 +132,8 @@ echo "* Removing unneeded files"
 # if someone runs /test/wui.php and there are test failures
 rm -rf test
 
-# Remove javascript compiler, no need to ship it
-rm -rf scripts/google-javascript-compiler/
-
-# Remove scripts which are not useful for user
-for s in compress-js create-release.sh generate-mo mergepo.py php2gettext.sh remove_control_m.sh update-po upload-release pending-po pendingpo.py ; do
-    rm -f scripts/$s
-done
+# Testsuite setup
+rm -f build.xml phpunit.xml.dist
 
 # Remove git metadata
 rm -rf .git
@@ -156,13 +144,25 @@ cd ..
 # Prepare all kits
 for kit in $KITS ; do
     # Copy all files
-	name=phpMyAdmin-$version-$kit
-	cp -r phpMyAdmin-$version $name
+    name=phpMyAdmin-$version-$kit
+    cp -r phpMyAdmin-$version $name
 
-	# Cleanup translations
+    # Cleanup translations
     cd phpMyAdmin-$version-$kit
     scripts/lang-cleanup.sh $kit
-    rm -f scripts/lang-cleanup.sh
+    if [ -f examples/create_tables.sql ] ; then
+        # 3.5 and newer
+        rm -rf scripts
+    else
+        # 3.4 and older
+        # Remove javascript compiler, no need to ship it
+        rm -rf scripts/google-javascript-compiler/
+
+        # Remove scripts which are not useful for user
+        for s in compress-js create-release.sh generate-mo mergepo.py php2gettext.sh remove_control_m.sh update-po upload-release pending-po pendingpo.py ; do
+            rm -f scripts/$s
+        done
+    fi
     cd ..
 
     # Remove tar file possibly left from previous run
@@ -241,17 +241,15 @@ if [ $# -gt 0 ] ; then
                 git tag -a -m "Released $version" $tagname $branch
                 if echo $version | grep -q '^2\.11\.' ; then
                     echo '* 2.11 branch, no STABLE/TESTING update'
+                elif echo $version | grep -q '^3\.3\.' ; then
+                    echo '* 3.3 branch, no STABLE/TESTING update'
                 else
                     if echo $version | grep '[a-z_-]' ; then
                         mark_as_release $branch TESTING
                     else
                         # We update both branches here
                         # As it does not make sense to have older testing than stable
-                        if echo $version | grep -q '^3\.3\.' ; then
-                            echo '* 3.3 branch, no TESTING update'
-                        else
-                            mark_as_release $branch TESTING
-                        fi
+                        mark_as_release $branch TESTING
                         mark_as_release $branch STABLE
                     fi
                     git checkout master
@@ -284,7 +282,7 @@ Todo now:
 
         ./scripts/upload-release \$USER $version release
  4. add SF news item to phpMyAdmin project
- 5. announce release on freshmeat (http://freshmeat.net/projects/phpmyadmin/)
+ 5. announce release on freecode (http://freecode.com/projects/phpmyadmin/)
  6. send a short mail (with list of major changes) to
         phpmyadmin-devel@lists.sourceforge.net
         phpmyadmin-news@lists.sourceforge.net
