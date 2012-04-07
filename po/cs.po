@@ -3,10 +3,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: phpMyAdmin 3.5.0-rc1\n"
+"Project-Id-Version: phpMyAdmin 3.5.0-rc2\n"
 "Report-Msgid-Bugs-To: phpmyadmin-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2012-03-14 14:17+0100\n"
-"PO-Revision-Date: 2012-03-14 14:43+0200\n"
+"POT-Creation-Date: 2012-03-29 10:07+0200\n"
+"PO-Revision-Date: 2012-04-05 16:16+0200\n"
 "Last-Translator: Michal Čihař <michal@cihar.com>\n"
 "Language-Team: czech <cs@li.org>\n"
 "Language: cs\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 0.6\n"
+"X-Generator: Weblate 0.8\n"
 
 #: browse_foreigners.php:35 browse_foreigners.php:53 js/messages.php:350
 #: libraries/display_tbl.lib.php:359 server_privileges.php:1677
@@ -68,7 +68,7 @@ msgstr "Vyhledávání"
 #: libraries/schema/User_Schema.class.php:487
 #: libraries/select_server.lib.php:93 libraries/sql_query_form.lib.php:356
 #: libraries/sql_query_form.lib.php:418 libraries/sql_query_form.lib.php:471
-#: libraries/tbl_properties.inc.php:575 main.php:115 navigation.php:171
+#: libraries/tbl_properties.inc.php:574 main.php:115 navigation.php:171
 #: navigation.php:209 pmd_pdf.php:120 prefs_manage.php:263
 #: prefs_manage.php:314 server_binlog.php:109 server_privileges.php:746
 #: server_privileges.php:1788 server_privileges.php:2152
@@ -119,7 +119,8 @@ msgid ""
 "The %s file is not available on this system, please visit www.phpmyadmin.net "
 "for more information."
 msgstr ""
-"Soubor %s nebyl nalezen, více informací naleznete na www.phpmyadmin.net."
+"Soubor %s nebyl nalezen, více informací naleznete na stránce www.phpmyadmin."
+"net."
 
 #: db_create.php:60
 #, php-format
@@ -131,7 +132,7 @@ msgid "Database comment: "
 msgstr "Komentář k databázi: "
 
 #: db_datadict.php:153 libraries/schema/Pdf_Relation_Schema.class.php:1279
-#: libraries/tbl_properties.inc.php:662 tbl_operations.php:366
+#: libraries/tbl_properties.inc.php:661 tbl_operations.php:366
 #: tbl_printview.php:124
 msgid "Table comments"
 msgstr "Komentář k tabulce"
@@ -334,7 +335,7 @@ msgstr "Přepnout na zkopírovanou databázi"
 #: db_operations.php:548 libraries/Index.class.php:446
 #: libraries/build_html_for_db.lib.php:20 libraries/db_structure.lib.php:48
 #: libraries/mysql_charsets.lib.php:113 libraries/tbl_properties.inc.php:100
-#: libraries/tbl_properties.inc.php:668 libraries/tbl_select.lib.php:85
+#: libraries/tbl_properties.inc.php:667 libraries/tbl_select.lib.php:85
 #: server_collations.php:53 server_collations.php:65 tbl_operations.php:382
 #: tbl_structure.php:203 tbl_structure.php:872 tbl_tracking.php:259
 #: tbl_tracking.php:325
@@ -676,7 +677,7 @@ msgstr "Zaškrtnout neoptimální"
 #: libraries/db_links.inc.php:56 libraries/display_export.lib.php:79
 #: libraries/display_tbl.lib.php:2516 libraries/display_tbl.lib.php:2657
 #: libraries/server_links.inc.php:65 libraries/tbl_links.inc.php:80
-#: prefs_manage.php:286 server_privileges.php:1449 server_status.php:1600
+#: prefs_manage.php:286 server_privileges.php:1449 server_status.php:1606
 #: setup/frames/menu.inc.php:21
 msgid "Export"
 msgstr "Export"
@@ -1282,13 +1283,13 @@ msgstr "Odkládací oblast"
 
 #. l10n: shortcuts for Megabyte
 #: js/messages.php:104 js/messages.php:127 libraries/common.lib.php:1400
-#: server_status.php:1680
+#: server_status.php:1686
 msgid "MiB"
 msgstr "MiB"
 
 #. l10n: shortcuts for Kilobyte
 #: js/messages.php:105 js/messages.php:126 libraries/common.lib.php:1398
-#: server_status.php:1680
+#: server_status.php:1686
 msgid "KiB"
 msgstr "KiB"
 
@@ -1384,7 +1385,7 @@ msgid "Traffic"
 msgstr "Provoz"
 
 #: js/messages.php:137 libraries/server_links.inc.php:73
-#: server_status.php:1555
+#: server_status.php:1561
 msgid "Settings"
 msgstr "Nastavení"
 
@@ -1407,7 +1408,7 @@ msgstr "Prosím přidejte do série alespoň jednu hodnotu"
 #: js/messages.php:143 libraries/display_export.lib.php:308
 #: libraries/display_tbl.lib.php:573 libraries/export/sql.php:1093
 #: libraries/tbl_properties.inc.php:530 pmd_general.php:504
-#: server_privileges.php:2050 server_status.php:1268 server_status.php:1697
+#: server_privileges.php:2050 server_status.php:1268 server_status.php:1703
 #: tbl_zoom_select.php:151 tbl_zoom_select.php:278
 msgid "None"
 msgstr "Žádná"
@@ -1507,7 +1508,7 @@ msgstr "Změnit nastavení"
 msgid "Current settings"
 msgstr "Aktuální nastavení"
 
-#: js/messages.php:168 server_status.php:1645
+#: js/messages.php:168 server_status.php:1651
 msgid "Chart Title"
 msgstr "Název grafu"
 
@@ -1674,7 +1675,7 @@ msgstr ""
 #: js/messages.php:212 libraries/config/messages.inc.php:172
 #: libraries/db_links.inc.php:82 libraries/display_import.lib.php:126
 #: libraries/server_links.inc.php:69 libraries/tbl_links.inc.php:89
-#: prefs_manage.php:229 server_status.php:1600 setup/frames/menu.inc.php:20
+#: prefs_manage.php:229 server_status.php:1606 setup/frames/menu.inc.php:20
 msgid "Import"
 msgstr "Import"
 
@@ -1840,7 +1841,7 @@ msgstr "Doba běhu dotazu"
 
 #: js/messages.php:284 libraries/config/FormDisplay.tpl.php:355
 #: libraries/schema/User_Schema.class.php:352
-#: libraries/tbl_properties.inc.php:714 setup/frames/config.inc.php:39
+#: libraries/tbl_properties.inc.php:713 setup/frames/config.inc.php:39
 #: setup/frames/index.inc.php:229 tbl_change.php:1025
 #: tbl_gis_visualization.php:193 tbl_indexes.php:280 tbl_relation.php:559
 msgid "Save"
@@ -2493,12 +2494,12 @@ msgstr "Nejsou dostupné podrobnější informace o tomto úložišti."
 #: libraries/StorageEngine.class.php:341
 #, php-format
 msgid "%s is available on this MySQL server."
-msgstr "Na tomto MySQL serveru je dostupné úložiště %s."
+msgstr "Úložiště %s je na tomto MySQL serveru je dostupné."
 
 #: libraries/StorageEngine.class.php:344
 #, php-format
 msgid "%s has been disabled for this MySQL server."
-msgstr "Na tomto MySQL je úložiště %s vypnuté."
+msgstr "Úložiště %s je na tomto MySQL serveru vypnuté."
 
 #: libraries/StorageEngine.class.php:348
 #, php-format
@@ -2822,7 +2823,7 @@ msgstr ""
 #: libraries/common.inc.php:650
 #, php-format
 msgid "Invalid server index: %s"
-msgstr "Chybné číslo serveru: „%s“"
+msgstr "Chybné číslo serveru: %s"
 
 #: libraries/common.inc.php:657
 #, php-format
@@ -3012,7 +3013,7 @@ msgstr "Klikněte pro přepnutí"
 #: libraries/config/user_preferences.forms.php:257
 #: libraries/db_links.inc.php:48 libraries/export/latex.php:371
 #: libraries/import.lib.php:1125 libraries/tbl_links.inc.php:61
-#: libraries/tbl_properties.inc.php:591 pmd_general.php:140
+#: libraries/tbl_properties.inc.php:590 pmd_general.php:140
 #: server_privileges.php:614 server_replication.php:313 tbl_tracking.php:253
 msgid "Structure"
 msgstr "Struktura"
@@ -3262,7 +3263,7 @@ msgid ""
 msgstr ""
 "Toto nastavení umožňuje stránkám na jiných doménách začlenit phpMyAdmina do "
 "rámce, toto je potenciální [strong]bezpečnostní problém[/strong] a může "
-"umožnit XFS (Cross Frame Scripting)"
+"umožnit XFS (Cross Frame Scripting) útoky"
 
 #: libraries/config/messages.inc.php:22
 msgid "Allow third party framing"
@@ -3282,7 +3283,7 @@ msgstr ""
 
 #: libraries/config/messages.inc.php:25
 msgid "Blowfish secret"
-msgstr "Klíč pro šifrování cookies"
+msgstr "Heslo Blowfish"
 
 #: libraries/config/messages.inc.php:26
 msgid "Highlight selected rows"
@@ -3389,8 +3390,7 @@ msgid ""
 "Whether a warning (&quot;Are your really sure...&quot;) should be displayed "
 "when you're about to lose data"
 msgstr ""
-"Zda se má zobrazovat varování („Jste si opravdu jistý...“), když hrozí "
-"ztráta dat"
+"Zda zobrazovat varování („Jste si opravdu jistý...“), pokud hrozí ztráta dat"
 
 #: libraries/config/messages.inc.php:47
 msgid "Confirm DROP queries"
@@ -4397,8 +4397,7 @@ msgstr "Ikony v navigační liště"
 
 #: libraries/config/messages.inc.php:327
 msgid "use GZip output buffering for increased speed in HTTP transfers"
-msgstr ""
-"Použije vyrovnávací paměť pro GZip výstup, čímž zvýší rychlost HTTP přenosů"
+msgstr "Použít vyrovnávací paměť výstupu GZip pro zrychlení přenosů HTTP"
 
 #: libraries/config/messages.inc.php:328
 msgid "GZip output buffering"
@@ -4418,7 +4417,7 @@ msgstr "Výchozí pořadí řazení"
 
 #: libraries/config/messages.inc.php:331
 msgid "Use persistent connections to MySQL databases"
-msgstr "Použije trvalé připojení k MySQL databázi"
+msgstr "Používat trvalé připojení k databázím MySQL"
 
 #: libraries/config/messages.inc.php:332
 msgid "Persistent connections"
@@ -4628,7 +4627,7 @@ msgstr "Komprimovat připojení"
 #: libraries/config/messages.inc.php:380
 msgid "How to connect to server, keep [kbd]tcp[/kbd] if unsure"
 msgstr ""
-"Jak se připojit k serveru, ponechte [kbd]tcp[/kbd] pokud si nejste jistí"
+"Způsob připojení k serveru, pokud si nejste jistí ponechte [kbd]tcp[/kbd]"
 
 #: libraries/config/messages.inc.php:381
 msgid "Connection type"
@@ -4763,7 +4762,7 @@ msgstr ""
 "Můžete použít žolíky MySQL (% a _), escapujte je, pokud je chcete použít "
 "jako znaky, např. použijte [kbd]'moje\\_db'[/kbd] a ne [kbd]'moje_db'[/kbd]. "
 "Použitím této volby můžete také změnit pořadí databází, stačí na konci "
-"seznamu uvést [kbd]*[/kbd] pro zobrazní ostatních v abecedním pořadí."
+"seznamu uvést [kbd]*[/kbd] pro zobrazení ostatních v abecedním pořadí."
 
 #: libraries/config/messages.inc.php:407
 msgid "Show only listed databases"
@@ -5020,7 +5019,7 @@ msgstr "Dlouhé jméno tohoto serveru"
 
 #: libraries/config/messages.inc.php:455
 msgid "Whether a user should be displayed a &quot;show all (rows)&quot; button"
-msgstr "Jestli uživateli bude zobrazeno tlačítko „Zobrazit vše“"
+msgstr "Jestli bude uživateli zobrazeno tlačítko „Zobrazit vše“"
 
 #: libraries/config/messages.inc.php:456
 msgid "Allow to display all the rows"
@@ -5160,7 +5159,8 @@ msgstr "Zobrazit komentáře tabulky v tooltipu"
 msgid ""
 "Mark used tables and make it possible to show databases with locked tables"
 msgstr ""
-"Označí používané tabulky a umožní zobrazit databáze se zamčenými tabulkami"
+"Označit používané tabulky a tím umožnit zobrazení databází se zamčenými "
+"tabulkami"
 
 #: libraries/config/messages.inc.php:483
 msgid "Skip locked tables"
@@ -6216,7 +6216,7 @@ msgstr ""
 
 #: libraries/engines/pbms.lib.php:50
 msgid "Temp Log Threshold"
-msgstr "Hranice dočasného záznanového souboru"
+msgstr "Hranice dočasného záznamového souboru"
 
 #: libraries/engines/pbms.lib.php:51
 msgid ""
@@ -6852,7 +6852,7 @@ msgstr "Chybný počet polí v CSV datech na řádku %d."
 msgid "DocSQL"
 msgstr "DocSQL"
 
-#: libraries/import/docsql.php:32 libraries/tbl_properties.inc.php:568
+#: libraries/import/docsql.php:32 libraries/tbl_properties.inc.php:567
 #: server_synchronize.php:441 server_synchronize.php:913
 msgid "Table name"
 msgstr "Jméno tabulky"
@@ -7194,8 +7194,8 @@ msgstr "Transformace při prohlížení"
 msgid ""
 "Please see the documentation on how to update your column_comments table"
 msgstr ""
-"Podívejte se prosím do dokumentace, jak aktualizovat tabulku s informacemi "
-"o polích v tabulce column_comments"
+"Podívejte se prosím do dokumentace, jak aktualizovat informace o polích v "
+"tabulce column_comments"
 
 #: libraries/relation.lib.php:124 libraries/sql_query_form.lib.php:376
 msgid "Bookmarked SQL query"
@@ -8185,30 +8185,21 @@ msgstr "Primární"
 msgid "Fulltext"
 msgstr "Fulltext"
 
-#: libraries/tbl_properties.inc.php:535 transformation_overview.php:57
-#, php-format
-msgid ""
-"No description is available for this transformation.<br />Please ask the "
-"author what %s does."
-msgstr ""
-"Pro tuto transformaci není dostupný žádný popis.<br />Zeptejte se autora co "
-"%s dělá."
-
-#: libraries/tbl_properties.inc.php:574 tbl_structure.php:652
+#: libraries/tbl_properties.inc.php:573 tbl_structure.php:652
 #, php-format
 msgid "Add %s column(s)"
 msgstr "Přidat %s polí"
 
-#: libraries/tbl_properties.inc.php:576 tbl_structure.php:646
+#: libraries/tbl_properties.inc.php:575 tbl_structure.php:646
 msgid "You have to add at least one column."
 msgstr "Musíte přidat alespoň jedno pole."
 
-#: libraries/tbl_properties.inc.php:664 server_engines.php:54
+#: libraries/tbl_properties.inc.php:663 server_engines.php:54
 #: tbl_operations.php:374
 msgid "Storage Engine"
 msgstr "Úložiště"
 
-#: libraries/tbl_properties.inc.php:693
+#: libraries/tbl_properties.inc.php:692
 msgid "PARTITION definition"
 msgstr "Definice PARTITION"
 
@@ -8225,6 +8216,15 @@ msgstr "Vyhledávání v tabulce"
 #: libraries/tbl_select.lib.php:175 tbl_change.php:1000
 msgid "Edit/Insert"
 msgstr "Upravit/Vložit"
+
+#: libraries/transformations.lib.php:134
+#, php-format
+msgid ""
+"No description is available for this transformation.<br />Please ask the "
+"author what %s does."
+msgstr ""
+"Pro tuto transformaci není dostupný žádný popis.<br />Zeptejte se autora co "
+"%s dělá."
 
 #: libraries/transformations/application_octetstream__download.inc.php:10
 msgid ""
@@ -9041,7 +9041,7 @@ msgstr ""
 #: server_privileges.php:50 server_privileges.php:241
 #: server_privileges.php:631
 msgid "Allows creating and dropping indexes."
-msgstr "Umožňuje vytvářet a rušit klíče."
+msgstr "Umožňuje vytvářet a odstraňovat klíče."
 
 #: server_privileges.php:51 server_privileges.php:201
 #: server_privileges.php:550 server_privileges.php:619
@@ -9359,7 +9359,7 @@ msgstr "Přidělit všechna oprávnění na jméno odpovídající masce (uživa
 #: server_privileges.php:2225
 #, php-format
 msgid "Grant all privileges on database &quot;%s&quot;"
-msgstr "Přidělit všechna oprávnění na databázi„%s“"
+msgstr "Přidělit všechna oprávnění na databázi „%s“"
 
 #: server_privileges.php:2250
 #, php-format
@@ -10455,39 +10455,39 @@ msgstr ""
 msgid "The number of threads that are not sleeping."
 msgstr "Počet vláken, která nespí."
 
-#: server_status.php:1551
+#: server_status.php:1557
 msgid "Start Monitor"
 msgstr "Spustit monitor"
 
-#: server_status.php:1560
+#: server_status.php:1566
 msgid "Instructions/Setup"
 msgstr "Návod/Nastavení"
 
-#: server_status.php:1565
+#: server_status.php:1571
 msgid "Done rearranging/editing charts"
 msgstr "Ukončit upravování grafů"
 
-#: server_status.php:1572 server_status.php:1643
+#: server_status.php:1578 server_status.php:1649
 msgid "Add chart"
 msgstr "Přidat graf"
 
-#: server_status.php:1574
+#: server_status.php:1580
 msgid "Rearrange/edit charts"
 msgstr "Upravit/Uspořádat grafy"
 
-#: server_status.php:1578
+#: server_status.php:1584
 msgid "Refresh rate"
 msgstr "Obnovovací frekvence"
 
-#: server_status.php:1583
+#: server_status.php:1589
 msgid "Chart columns"
 msgstr "Sloupce grafu"
 
-#: server_status.php:1599
+#: server_status.php:1605
 msgid "Chart arrangement"
 msgstr "Uspořádání grafů"
 
-#: server_status.php:1599
+#: server_status.php:1605
 msgid ""
 "The arrangement of the charts is stored to the browsers local storage. You "
 "may want to export it if you have a complicated set up."
@@ -10495,15 +10495,15 @@ msgstr ""
 "Uspořádání grafů je uloženo ve vašem prohlížeči. Pokud máte komplikovanější "
 "nastavení, můžete ho chtít exportovat a zálohovat."
 
-#: server_status.php:1600
+#: server_status.php:1606
 msgid "Reset to default"
 msgstr "Obnovit na výchozí hodnotu"
 
-#: server_status.php:1604
+#: server_status.php:1610
 msgid "Monitor Instructions"
 msgstr "Instrukce monitoru"
 
-#: server_status.php:1605
+#: server_status.php:1611
 msgid ""
 "The phpMyAdmin Monitor can assist you in optimizing the server configuration "
 "and track down time intensive queries. For the latter you will need to set "
@@ -10516,7 +10516,7 @@ msgstr ""
 "log_output na 'TABLE' a mít povolené záznam pomalých dotazů nebo všech "
 "dotazů. Zaznamenání všech dotazů ale může zvýšit zatížení serveru až o 15%"
 
-#: server_status.php:1610
+#: server_status.php:1616
 msgid ""
 "Unfortunately your Database server does not support logging to table, which "
 "is a requirement for analyzing the database logs with phpMyAdmin. Logging to "
@@ -10528,11 +10528,11 @@ msgstr ""
 "podporována v MySQL 5.1.6 a novějších. I bez této podpory však můžete použít "
 "zobrazování grafů s informacemi o serveru."
 
-#: server_status.php:1623
+#: server_status.php:1629
 msgid "Using the monitor:"
 msgstr "Používání monitoru:"
 
-#: server_status.php:1625
+#: server_status.php:1631
 msgid ""
 "Your browser will refresh all displayed charts in a regular interval. You "
 "may add charts and change the refresh rate under 'Settings', or remove any "
@@ -10542,7 +10542,7 @@ msgstr ""
 "můžete přidat další grafy, změnit obnovovací frekvenci nebo přesunout či "
 "odstranit grafy."
 
-#: server_status.php:1627
+#: server_status.php:1633
 msgid ""
 "To display queries from the logs, select the relevant time span on any chart "
 "by holding down the left mouse button and panning over the chart. Once "
@@ -10554,11 +10554,11 @@ msgstr ""
 "nahrána tabulka sloučených dotazů, kde můžete zvolit libovolný dotaz k další "
 "analýze."
 
-#: server_status.php:1634
+#: server_status.php:1640
 msgid "Please note:"
 msgstr "Poznámka:"
 
-#: server_status.php:1636
+#: server_status.php:1642
 msgid ""
 "Enabling the general_log may increase the server load by 5-15%. Also be "
 "aware that generating statistics from the logs is a load intensive task, so "
@@ -10570,79 +10570,79 @@ msgstr ""
 "vybírat krátké časové období a záznam vypnout poté co již monitorování "
 "nebudete potřebovat."
 
-#: server_status.php:1648
+#: server_status.php:1654
 msgid "Preset chart"
 msgstr "Předdefinované grafy"
 
-#: server_status.php:1652
+#: server_status.php:1658
 msgid "Status variable(s)"
 msgstr "Stavové proměnné"
 
-#: server_status.php:1654
+#: server_status.php:1660
 msgid "Select series:"
 msgstr "Vyberte série:"
 
-#: server_status.php:1656
+#: server_status.php:1662
 msgid "Commonly monitored"
 msgstr "Obvykle monitorované"
 
-#: server_status.php:1671
+#: server_status.php:1677
 msgid "or type variable name:"
 msgstr "nebo zadejte jméno proměnné:"
 
-#: server_status.php:1675
+#: server_status.php:1681
 msgid "Display as differential value"
 msgstr "Zobrazit jako rozdíl"
 
-#: server_status.php:1677
+#: server_status.php:1683
 msgid "Apply a divisor"
 msgstr "Vynásobit"
 
-#: server_status.php:1684
+#: server_status.php:1690
 msgid "Append unit to data values"
 msgstr "Přidat jednoty"
 
-#: server_status.php:1690
+#: server_status.php:1696
 msgid "Add this series"
 msgstr "Přidat tuto sérii"
 
-#: server_status.php:1692
+#: server_status.php:1698
 msgid "Clear series"
 msgstr "Odstranit série"
 
-#: server_status.php:1695
+#: server_status.php:1701
 msgid "Series in Chart:"
 msgstr "Série v grafu:"
 
-#: server_status.php:1708
+#: server_status.php:1714
 msgid "Log statistics"
 msgstr "Statistiky záznamů"
 
-#: server_status.php:1709
+#: server_status.php:1715
 msgid "Selected time range:"
 msgstr "Zvolený časový rozsah:"
 
-#: server_status.php:1714
+#: server_status.php:1720
 msgid "Only retrieve SELECT,INSERT,UPDATE and DELETE Statements"
 msgstr "Stáhnout jen příkazy SELECT, INSERT, UPDATE a DELETE"
 
-#: server_status.php:1719
+#: server_status.php:1725
 msgid "Remove variable data in INSERT statements for better grouping"
 msgstr "Před sloučením odstranit proměnná data v příkazech INSERT"
 
-#: server_status.php:1724
+#: server_status.php:1730
 msgid "Choose from which log you want the statistics to be generated from."
 msgstr "Zvolte ze kterého záznamu chcete vygenerovat statistiku."
 
-#: server_status.php:1726
+#: server_status.php:1732
 msgid "Results are grouped by query text."
 msgstr "Výsledky jsou sloučeny podle textu dotazu."
 
-#: server_status.php:1731
+#: server_status.php:1737
 msgid "Query analyzer"
 msgstr "Analýza dotazu"
 
-#: server_status.php:1771
+#: server_status.php:1777
 #, php-format
 msgid "%d second"
 msgid_plural "%d seconds"
@@ -10650,7 +10650,7 @@ msgstr[0] "%d sekunda"
 msgstr[1] "%d sekundy"
 msgstr[2] "%d sekund"
 
-#: server_status.php:1773
+#: server_status.php:1779
 #, php-format
 msgid "%d minute"
 msgid_plural "%d minutes"
@@ -10714,7 +10714,7 @@ msgstr "Aplikovat klíče"
 
 #: server_synchronize.php:448 server_synchronize.php:920
 msgid "Update row(s)"
-msgstr "Aktuallizovat řádky"
+msgstr "Aktualizovat řádky"
 
 #: server_synchronize.php:449 server_synchronize.php:921
 msgid "Insert row(s)"
@@ -11480,7 +11480,7 @@ msgstr "Opravit"
 
 #: tbl_operations.php:787
 msgid "Remove partitioning"
-msgstr "Zrušit oddíly"
+msgstr "Zrušit dělení"
 
 #: tbl_operations.php:813
 msgid "Check referential integrity:"
@@ -12545,7 +12545,7 @@ msgstr ""
 "Jich se můžete zbavit jen přepsáním dotazů a obejitím těchto podmínek "
 "(přítomnost polí BLOB, TEXT nebo jiných větších než 512 bajtů). Podrobněji "
 "je tato problematika popsána na začátku <a href=\"http://www.facebook.com/"
-"note.php?note_id=10150111255065841&comments\">článku od Pythian Group</a>."
+"note.php?note_id=10150111255065841&comments\">článku od Pythian Group</a>"
 
 #: po/advisory_rules.php:153
 #, php-format
@@ -12615,7 +12615,7 @@ msgstr "Nejvyšší využití (%%) vyrovnávací paměti MyISAM pro klíče"
 #: po/advisory_rules.php:166 po/advisory_rules.php:171
 #, php-format
 msgid "MyISAM key buffer (index cache) %% used is low."
-msgstr "Využití vyrovnávací paměti klíčů MyISAM je příliš nízké."
+msgstr "Využití vyrovnávací paměti klíčů MyISAM je příliš nízké %%."
 
 #: po/advisory_rules.php:167 po/advisory_rules.php:172
 msgid ""
@@ -12633,7 +12633,7 @@ msgid ""
 "max %% MyISAM key buffer ever used: %s%%, this value should be above 95%%"
 msgstr ""
 "Nejvyšší využití (%%) vyrovnávací paměti MyISAM pro klíče je %s%%, tato "
-"hodnota by měla být nad 95%%."
+"hodnota by měla být nad 95%%"
 
 #: po/advisory_rules.php:170
 msgid "Percentage of MyISAM key buffer used"
@@ -12783,7 +12783,7 @@ msgstr "Velikost vyrovnávací paměti vláken je nastavena na 0"
 #: po/advisory_rules.php:210
 #, php-format
 msgid "Thread cache hit rate %%"
-msgstr "Úspěšnost vyrovnávací paměti vláken"
+msgstr "Úspěšnost vyrovnávací paměti vláken %%"
 
 #: po/advisory_rules.php:211
 msgid "Thread cache is not efficient."

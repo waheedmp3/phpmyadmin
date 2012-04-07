@@ -1,18 +1,18 @@
 # Automatically generated <>, 2010.
 msgid ""
 msgstr ""
-"Project-Id-Version: phpMyAdmin 3.5.0-rc1\n"
+"Project-Id-Version: phpMyAdmin-docs VERSION\n"
 "Report-Msgid-Bugs-To: phpmyadmin-devel@lists.sourceforge.net\n"
-"POT-Creation-Date: 2012-03-14 14:17+0100\n"
-"PO-Revision-Date: 2012-03-12 01:01+0200\n"
-"Last-Translator: Jo Michael <me@mynetx.net>\n"
-"Language-Team: german <de@li.org>\n"
+"POT-Creation-Date: 2012-03-29 10:07+0200\n"
+"PO-Revision-Date: 2012-04-06 16:49+0200\n"
+"Last-Translator: Holger Ronecker <holger@ronecker.com>\n"
+"Language-Team: none\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 0.4\n"
+"X-Generator: Weblate 0.8\n"
 
 #: browse_foreigners.php:35 browse_foreigners.php:53 js/messages.php:350
 #: libraries/display_tbl.lib.php:359 server_privileges.php:1677
@@ -36,7 +36,7 @@ msgid ""
 msgstr ""
 "Das Ziel-Browserfenster konnte nicht aktualisiert werden. Möglicherweise "
 "wurde das Ursprungsfenster geschlossen oder der Browser verhindert den "
-"Zugriff aufgrund von Ihren Sicherheitseinstellungen."
+"Zugriff aufgrund Ihrer Sicherheitseinstellungen."
 
 #: browse_foreigners.php:160 libraries/common.lib.php:3127
 #: libraries/common.lib.php:3134 libraries/common.lib.php:3343
@@ -66,7 +66,7 @@ msgstr "Suche"
 #: libraries/schema/User_Schema.class.php:487
 #: libraries/select_server.lib.php:93 libraries/sql_query_form.lib.php:356
 #: libraries/sql_query_form.lib.php:418 libraries/sql_query_form.lib.php:471
-#: libraries/tbl_properties.inc.php:575 main.php:115 navigation.php:171
+#: libraries/tbl_properties.inc.php:574 main.php:115 navigation.php:171
 #: navigation.php:209 pmd_pdf.php:120 prefs_manage.php:263
 #: prefs_manage.php:314 server_binlog.php:109 server_privileges.php:746
 #: server_privileges.php:1788 server_privileges.php:2152
@@ -130,7 +130,7 @@ msgid "Database comment: "
 msgstr "Datenbankkommentar: "
 
 #: db_datadict.php:153 libraries/schema/Pdf_Relation_Schema.class.php:1279
-#: libraries/tbl_properties.inc.php:662 tbl_operations.php:366
+#: libraries/tbl_properties.inc.php:661 tbl_operations.php:366
 #: tbl_printview.php:124
 msgid "Table comments"
 msgstr "Tabellen-Kommentar"
@@ -315,7 +315,7 @@ msgstr "Vor dem Kopieren CREATE DATABASE ausführen"
 #: libraries/config/messages.inc.php:137 tbl_operations.php:562
 #, php-format
 msgid "Add %s"
-msgstr "Füge %s hinzu"
+msgstr "%s hinzufügen"
 
 #: db_operations.php:508 libraries/config/messages.inc.php:121
 #: tbl_operations.php:318 tbl_operations.php:564
@@ -333,7 +333,7 @@ msgstr "Zu kopierter Datenbank wechseln"
 #: db_operations.php:548 libraries/Index.class.php:446
 #: libraries/build_html_for_db.lib.php:20 libraries/db_structure.lib.php:48
 #: libraries/mysql_charsets.lib.php:113 libraries/tbl_properties.inc.php:100
-#: libraries/tbl_properties.inc.php:668 libraries/tbl_select.lib.php:85
+#: libraries/tbl_properties.inc.php:667 libraries/tbl_select.lib.php:85
 #: server_collations.php:53 server_collations.php:65 tbl_operations.php:382
 #: tbl_structure.php:203 tbl_structure.php:872 tbl_tracking.php:259
 #: tbl_tracking.php:325
@@ -642,9 +642,7 @@ msgstr "Gesamt"
 #: db_structure.php:532 libraries/StorageEngine.class.php:338
 #, php-format
 msgid "%s is the default storage engine on this MySQL server."
-msgstr ""
-"%s die Storage-Engine die standardmäßig auf diesem MySQL-Server eingestellt "
-"ist."
+msgstr "%s ist die Standard Storage-Engine dieses MySQL-Servers."
 
 #: db_structure.php:561 db_structure.php:578 db_structure.php:579
 #: libraries/display_tbl.lib.php:2498 libraries/display_tbl.lib.php:2503
@@ -675,7 +673,7 @@ msgstr "Tabellen mit Überhang auswählen"
 #: libraries/db_links.inc.php:56 libraries/display_export.lib.php:79
 #: libraries/display_tbl.lib.php:2516 libraries/display_tbl.lib.php:2657
 #: libraries/server_links.inc.php:65 libraries/tbl_links.inc.php:80
-#: prefs_manage.php:286 server_privileges.php:1449 server_status.php:1600
+#: prefs_manage.php:286 server_privileges.php:1449 server_status.php:1606
 #: setup/frames/menu.inc.php:21
 msgid "Export"
 msgstr "Exportieren"
@@ -774,7 +772,7 @@ msgstr "Aktion"
 
 #: db_tracking.php:102 js/messages.php:34
 msgid "Delete tracking data for this table"
-msgstr "Lösche die Verlaufsdaten für diese Tabelle"
+msgstr "Lösche die Verlaufsdaten dieser Tabelle"
 
 #: db_tracking.php:120 tbl_tracking.php:605 tbl_tracking.php:663
 msgid "active"
@@ -824,7 +822,7 @@ msgstr "Werte für die Spalte %s"
 
 #: enum_editor.php:34 js/messages.php:269
 msgid "Enter each value in a separate field"
-msgstr "Jeden Wert in einem eigenen Feld eingeben"
+msgstr "Geben Sie jeden Wert in einem eigenen Feld ein"
 
 #: enum_editor.php:123
 msgid "Add a value"
@@ -997,8 +995,8 @@ msgid ""
 "for it is not implemented or disabled by your configuration."
 msgstr ""
 "Sie haben versucht, eine Datei zu laden, die mit einem nicht unterstützten "
-"Verfahren komprimiert wurde (%s). Entweder ist die Unterstützung für "
-"selbiges nicht implementiert oder in Ihrer Konfiguration deaktiviert."
+"Verfahren komprimiert wurde (%s). Entweder ist das Verfahren nicht "
+"implementiert oder in Ihrer Konfiguration deaktiviert."
 
 #: import.php:349
 msgid ""
@@ -1098,8 +1096,7 @@ msgstr "Primary Key/Index wird gelöscht"
 
 #: js/messages.php:37
 msgid "This operation could take a long time. Proceed anyway?"
-msgstr ""
-"Diese Operation könnte einige Zeit beanspruchen. Trotzdem weitermachen?"
+msgstr "Diese Operation könnte einige Zeit beanspruchen. Trotzdem fortfahren ?"
 
 #: js/messages.php:40
 msgid "You are about to DISABLE a BLOB Repository!"
@@ -1142,7 +1139,7 @@ msgstr "Es wurde kein Host angegeben!"
 
 #: js/messages.php:56
 msgid "The user name is empty!"
-msgstr "Kein Benutzername eingegeben!"
+msgstr "Es wurde kein Benutzername eingegeben!"
 
 #: js/messages.php:57 server_privileges.php:1316 user_password.php:50
 msgid "The password is empty!"
@@ -1168,7 +1165,7 @@ msgstr "Die ausgewählten Benutzer werden gelöscht"
 #: js/messages.php:62 js/messages.php:141 tbl_tracking.php:235
 #: tbl_tracking.php:415
 msgid "Close"
-msgstr "Schliesse"
+msgstr "Schliessen"
 
 #: js/messages.php:65 js/messages.php:278 libraries/Index.class.php:468
 #: libraries/common.lib.php:648 libraries/common.lib.php:1195
@@ -1219,15 +1216,15 @@ msgstr "."
 
 #: js/messages.php:80
 msgid "KiB sent since last refresh"
-msgstr "KiB gesendet seit der letzten Aktualisierung"
+msgstr "KiB seit der letzten Aktualisierung gesendet"
 
 #: js/messages.php:81
 msgid "KiB received since last refresh"
-msgstr "KiB empfangen seit der letzten Aktualisierung"
+msgstr "KiB seit der letzten Aktualisierung empfangen"
 
 #: js/messages.php:82
 msgid "Server traffic (in KiB)"
-msgstr "Server Traffic (in KiB)"
+msgstr "Server-Datenverkehr (in KiB)"
 
 #: js/messages.php:83
 msgid "Connections since last refresh"
@@ -1260,7 +1257,6 @@ msgid "Local monitor configuration incompatible"
 msgstr "Die lokale Bildschirmkonfiguration ist nicht kompatibel"
 
 #: js/messages.php:95
-#, fuzzy
 msgid ""
 "The chart arrangement configuration in your browsers local storage is not "
 "compatible anymore to the newer version of the monitor dialog. It is very "
@@ -1279,7 +1275,7 @@ msgstr "Abfragen-Zwischenspeicher Effizienz"
 
 #: js/messages.php:98
 msgid "Query cache usage"
-msgstr "Abfragen-Zwischenspeicher Ausnutzung"
+msgstr "Abfragen-Zwischenspeichernutzung"
 
 #: js/messages.php:99
 msgid "Query cache used"
@@ -1295,17 +1291,17 @@ msgstr "Arbeitsspeicher"
 
 #: js/messages.php:103
 msgid "System swap"
-msgstr "System-Swap"
+msgstr "Auslagerungsspeicher"
 
 #. l10n: shortcuts for Megabyte
 #: js/messages.php:104 js/messages.php:127 libraries/common.lib.php:1400
-#: server_status.php:1680
+#: server_status.php:1686
 msgid "MiB"
 msgstr "MiB"
 
 #. l10n: shortcuts for Kilobyte
 #: js/messages.php:105 js/messages.php:126 libraries/common.lib.php:1398
-#: server_status.php:1680
+#: server_status.php:1686
 msgid "KiB"
 msgstr "KiB"
 
@@ -1401,7 +1397,7 @@ msgid "Traffic"
 msgstr "Netzwerkverkehr"
 
 #: js/messages.php:137 libraries/server_links.inc.php:73
-#: server_status.php:1555
+#: server_status.php:1561
 msgid "Settings"
 msgstr "Einstellungen"
 
@@ -1424,7 +1420,7 @@ msgstr "Bitte fügen Sie mindestens eine Variable der Serie hinzu"
 #: js/messages.php:143 libraries/display_export.lib.php:308
 #: libraries/display_tbl.lib.php:573 libraries/export/sql.php:1093
 #: libraries/tbl_properties.inc.php:530 pmd_general.php:504
-#: server_privileges.php:2050 server_status.php:1268 server_status.php:1697
+#: server_privileges.php:2050 server_status.php:1268 server_status.php:1703
 #: tbl_zoom_select.php:151 tbl_zoom_select.php:278
 msgid "None"
 msgstr "keine"
@@ -1515,7 +1511,7 @@ msgid ""
 "database administrator."
 msgstr ""
 "Sie können diese Variablen nicht ändern. Bitte melden Sie sich mit einem "
-"Root-Benutzer ein, oder kontaktieren Sie Ihren Datenbank-Administrator."
+"Root-Benutzer an, oder kontaktieren Sie Ihren Datenbank-Administrator."
 
 #: js/messages.php:165
 msgid "Change settings"
@@ -1525,7 +1521,7 @@ msgstr "Einstellungen ändern"
 msgid "Current settings"
 msgstr "Aktuelle Einstellungen"
 
-#: js/messages.php:168 server_status.php:1645
+#: js/messages.php:168 server_status.php:1651
 msgid "Chart Title"
 msgstr "Schaubild-Titel"
 
@@ -1614,7 +1610,7 @@ msgstr "Gesamt Zeit:"
 
 #: js/messages.php:190
 msgid "Profiling results"
-msgstr "Messergebnisse"
+msgstr "Profiler Ergebnisse"
 
 #: js/messages.php:191
 msgctxt "Display format"
@@ -1671,7 +1667,7 @@ msgstr ""
 
 #: js/messages.php:206
 msgid "Reload page"
-msgstr "Neuladen"
+msgstr "Neu laden"
 
 #: js/messages.php:208
 msgid "Affected rows:"
@@ -1689,12 +1685,12 @@ msgid ""
 "config..."
 msgstr ""
 "Aufbau der Diagramme mit der importierten Konfiguration ist fehlgeschlagen. "
-"Falle auf Standardeinstellungen zurück..."
+"Setze auf Standardeinstellungen zurück..."
 
 #: js/messages.php:212 libraries/config/messages.inc.php:172
 #: libraries/db_links.inc.php:82 libraries/display_import.lib.php:126
 #: libraries/server_links.inc.php:69 libraries/tbl_links.inc.php:89
-#: prefs_manage.php:229 server_status.php:1600 setup/frames/menu.inc.php:20
+#: prefs_manage.php:229 server_status.php:1606 setup/frames/menu.inc.php:20
 msgid "Import"
 msgstr "Importieren"
 
@@ -1776,7 +1772,7 @@ msgstr "Datenbanken werden umbenannt"
 
 #: js/messages.php:243
 msgid "Reload Database"
-msgstr "Lade Datenbank neu"
+msgstr "Datenbank neu laden"
 
 #: js/messages.php:244
 msgid "Copying Database"
@@ -1812,7 +1808,7 @@ msgstr "Suchergebnisse ausblenden"
 
 #: js/messages.php:258
 msgid "Show search results"
-msgstr "Zeige Suchergebnisse"
+msgstr "Suchergebnisse anzeigen"
 
 #: js/messages.php:259
 msgid "Browsing"
@@ -1837,7 +1833,7 @@ msgstr "%d Wert(e) hinzufügen"
 msgid ""
 "Note: If the file contains multiple tables, they will be combined into one"
 msgstr ""
-"Hinweis: Wenn die Date mehrere Tabellen enthält, werden diese in einer "
+"Hinweis: Wenn die Datei mehrere Tabellen enthält, werden diese in einer "
 "einzigen Tabelle zusammengefasst"
 
 #: js/messages.php:276
@@ -1864,7 +1860,7 @@ msgstr "Ausführungszeit der Abfrage"
 
 #: js/messages.php:284 libraries/config/FormDisplay.tpl.php:355
 #: libraries/schema/User_Schema.class.php:352
-#: libraries/tbl_properties.inc.php:714 setup/frames/config.inc.php:39
+#: libraries/tbl_properties.inc.php:713 setup/frames/config.inc.php:39
 #: setup/frames/index.inc.php:229 tbl_change.php:1025
 #: tbl_gis_visualization.php:193 tbl_indexes.php:280 tbl_relation.php:559
 msgid "Save"
@@ -1896,7 +1892,6 @@ msgstr ""
 "Verwenden Sie das Mausrad, um die Grafik zu vergrößern oder verkleinern."
 
 #: js/messages.php:299
-#, fuzzy
 msgid "Click and drag the mouse to navigate the plot."
 msgstr "Klicken und ziehen Sie die Maus, um in der Grafik zu navigieren."
 
@@ -1970,8 +1965,8 @@ msgid ""
 "You haven't saved the changes in the layout. They will be lost if you don't "
 "save them. Do you want to continue?"
 msgstr ""
-"Sie haben die Änderungen im Layout nicht gespeichert. Sie werden verworfen "
-"wenn Sie diese nicht speichern. Wünschen Sie fortzufahren?"
+"Sie haben die Änderungen im Layout nicht gespeichert. Sie gehen verloren "
+"wenn Sie nicht speichern. Möchten Sie fortfahren?"
 
 #: js/messages.php:341
 msgid "Add an option for column "
@@ -1991,7 +1986,7 @@ msgstr ""
 
 #: js/messages.php:346
 msgid "Drag to reorder"
-msgstr "Zur Umordnung ziehen"
+msgstr "Zur Umsortierung ziehen"
 
 #: js/messages.php:347
 msgid "Click to sort"
@@ -2008,14 +2003,13 @@ msgstr ""
 "umzustellen"
 
 #: js/messages.php:351
-#, fuzzy
 msgid ""
 "This table does not contain a unique column. Features related to the grid "
 "edit, checkbox, Edit, Copy and Delete links may not work after saving."
 msgstr ""
-"Diese Tabelle enthält keine eindeutige Spalte. Optionen in Bezug zur Gitter-"
-"Bearbeitungsfunktion, Kontrollkästchen, Bearbeiten, Kopieren und Löschen von "
-"Links können nach dem Speichern eventuell nicht funktionieren."
+"Diese Tabelle enthält keine eindeutige (\"unique\") Spalte. Optionen in Bezug "
+"zur Gitter-Bearbeitungsfunktion, Kontrollkästchen, Bearbeiten, Kopieren und "
+"Löschen von Links können nach dem Speichern eventuell nicht funktionieren."
 
 #: js/messages.php:352
 msgid ""
@@ -2051,7 +2045,7 @@ msgid ""
 "upgrading. The newest version is %s, released on %s."
 msgstr ""
 "Es ist eine neuere Version von phpMyAdmin verfügbar. Ein Update wird "
-"vorgeschlagen. Die aktuelle Version ist %s, erschienen am %s."
+"empfohlen. Die aktuelle Version ist %s, erschienen am %s."
 
 #. l10n: Latest available phpMyAdmin version
 #: js/messages.php:366
@@ -2353,8 +2347,8 @@ msgstr "Bestehende Konfigurationsdatei (%s) kann nicht gelesen werden."
 #: libraries/Config.class.php:752
 msgid "Wrong permissions on configuration file, should not be world writable!"
 msgstr ""
-"Falsche Zugriffsrechte auf die Konfigurationdaten. Die Datei sollte nicht "
-"für alle lesbar sein!"
+"Falsche Zugriffsrechte auf die Konfigurationsdatei. Schreibzugriff sollte "
+"nicht für alle möglich sein!"
 
 #: libraries/Config.class.php:1303
 msgid "Font size"
@@ -2388,7 +2382,7 @@ msgstr ""
 
 #: libraries/File.class.php:284
 msgid "The uploaded file was only partially uploaded."
-msgstr "Die Datei wurde teilweise übertragen."
+msgstr "Die Datei wurde nur teilweise übertragen."
 
 #: libraries/File.class.php:287
 msgid "Missing a temporary folder."
@@ -2400,11 +2394,11 @@ msgstr "Datei konnte gespeichert werden."
 
 #: libraries/File.class.php:293
 msgid "File upload stopped by extension."
-msgstr "Dateihochladen durch eine Erweiterung gestoppt."
+msgstr "Hochladen der Datei wurde durch die Erweiterung gestoppt."
 
 #: libraries/File.class.php:296
 msgid "Unknown error in file upload."
-msgstr "Unbekannter Fehler beim Dateihochladen."
+msgstr "Unbekannter Fehler beim hochladen der Datei."
 
 #: libraries/File.class.php:496
 msgid ""
@@ -2420,7 +2414,7 @@ msgstr "Fehler beim Verschieben der hochgeladenen Datei."
 
 #: libraries/File.class.php:516
 msgid "Cannot read (moved) upload file."
-msgstr "Die hochgeladene und verschobene Datei kann nicht gelesen werden."
+msgstr "Die hochgeladene (verschobene) Datei kann nicht gelesen werden."
 
 #: libraries/Index.class.php:419 tbl_relation.php:522
 msgid "No index defined!"
@@ -2505,7 +2499,7 @@ msgstr[1] "%1$d Datensätze eingefügt."
 
 #: libraries/PDF.class.php:81
 msgid "Error while creating PDF:"
-msgstr "Fehler beim Erstellen der PDF:"
+msgstr "Fehler beim Erstellen der PDF Datei:"
 
 #: libraries/RecentTable.class.php:107
 msgid "Could not save recent table"
@@ -2635,9 +2629,8 @@ msgid ""
 "You probably did not create a configuration file. You might want to use the "
 "%1$ssetup script%2$s to create one."
 msgstr ""
-"Eine mögliche Ursache wäre, dass Sie noch keine Konfigurationsdatei angelegt "
-"haben. Verwenden Sie in diesem Fall doch das %1$sSetup-Skript%2$s, um eine "
-"solche zu erstellen."
+"Sie haben möglicherweise noch keine Konfigurationsdatei erstellt. Sei können "
+"das %1$sSetup-Skript%2$s verwenden, um eine zu erstellen."
 
 #: libraries/auth/config.auth.lib.php:109
 msgid ""
@@ -2646,10 +2639,10 @@ msgid ""
 "configuration and make sure that they correspond to the information given by "
 "the administrator of the MySQL server."
 msgstr ""
-"phpMyAdmin hat versucht eine Verbindung zum MySQL-Server aufzubauen, jedoch "
-"hat dieser die Verbindung zurückgewiesen. Sie sollten Ihre Einstellungen für "
-"Host, Benutzername und Passwort in Ihrer config.inc.php überprüfen und sich "
-"vergewissern, dass diese den Informationen, welche Sie vom Administrator "
+"phpMyAdmin hat versucht eine Verbindung zum MySQL-Server aufzubauen und die "
+"Verbindung wurde zurückgewiesen. Sie sollten Ihre Einstellungen für Host, "
+"Benutzername und Passwort in Ihrer config.inc.php überprüfen und sich "
+"vergewissern, dass diese den Informationen, die Sie vom Administrator "
 "erhalten haben, entsprechen."
 
 #: libraries/auth/cookie.auth.lib.php:35
@@ -2700,7 +2693,8 @@ msgstr "Ab diesem Punkt müssen Cookies aktiviert sein."
 msgid ""
 "Login without a password is forbidden by configuration (see AllowNoPassword)"
 msgstr ""
-"Login ohne Passwort ist verboten (siehe AllowNoPassword in der Konfiguration)"
+"Login ohne Passwort ist verboten (siehe AllowNoPassword) in der "
+"Konfiguration"
 
 #: libraries/auth/cookie.auth.lib.php:572
 #: libraries/auth/signon.auth.lib.php:239
@@ -2846,7 +2840,7 @@ msgid ""
 "shown below."
 msgstr ""
 "Dies bedeutet im Allgemeinen, dass sich ein Syntax-Fehler eingeschlichen "
-"hat. Bitte überprüfen Sie die unten gezeigten Fehler."
+"hat. Bitte überprüfen Sie die unten angezeigten Fehler."
 
 #: libraries/common.inc.php:615
 #, php-format
@@ -2897,19 +2891,19 @@ msgstr "Maximal: %s%s"
 #: libraries/common.lib.php:450
 msgctxt "MySQL 5.5 documentation language"
 msgid "en"
-msgstr "en"
+msgstr "de"
 
 #. l10n: Please check that translation actually exists.
 #: libraries/common.lib.php:454
 msgctxt "MySQL 5.1 documentation language"
 msgid "en"
-msgstr "en"
+msgstr "de"
 
 #. l10n: Please check that translation actually exists.
 #: libraries/common.lib.php:458
 msgctxt "MySQL 5.0 documentation language"
 msgid "en"
-msgstr "en"
+msgstr "de"
 
 #: libraries/common.lib.php:472 libraries/common.lib.php:474
 #: libraries/common.lib.php:476 libraries/common.lib.php:494
@@ -3057,7 +3051,7 @@ msgstr "Zum Umschalten anklicken"
 #: libraries/config/user_preferences.forms.php:257
 #: libraries/db_links.inc.php:48 libraries/export/latex.php:371
 #: libraries/import.lib.php:1125 libraries/tbl_links.inc.php:61
-#: libraries/tbl_properties.inc.php:591 pmd_general.php:140
+#: libraries/tbl_properties.inc.php:590 pmd_general.php:140
 #: server_privileges.php:614 server_replication.php:313 tbl_tracking.php:253
 msgid "Structure"
 msgstr "Struktur"
@@ -4128,7 +4122,7 @@ msgstr ""
 
 #: libraries/config/messages.inc.php:249
 msgid "Format of imported file"
-msgstr "Dateiformat"
+msgstr "Format der importierten Datei"
 
 #: libraries/config/messages.inc.php:253 libraries/import/ldi.php:46
 msgid "Use LOCAL keyword"
@@ -4626,11 +4620,11 @@ msgstr "Erlaube root Login"
 
 #: libraries/config/messages.inc.php:368
 msgid "HTTP Basic Auth Realm name to display when doing HTTP Auth"
-msgstr "HTTP Basic Auth Realm Name , der bei HTTP Auth angezeigt wird"
+msgstr "HTTP Basic Auth Bereich Name der bei HTTP Auth angezeigt wird"
 
 #: libraries/config/messages.inc.php:369
 msgid "HTTP Realm"
-msgstr "HTTP Realm"
+msgstr "HTTP Bereich"
 
 #: libraries/config/messages.inc.php:370
 msgid ""
@@ -4806,10 +4800,8 @@ msgstr ""
 "gespeichert werden, die ältesten Einträge werden automatisch gelöscht"
 
 #: libraries/config/messages.inc.php:403
-#, fuzzy
-#| msgid "Maximum number of tables displayed in table list"
 msgid "Maximal number of table preferences to store"
-msgstr "Maximale Anzahl der in einer Tabellenliste angezeigten Tabellen"
+msgstr "Maximale Anzahl der zu speichernden Tabelleneinstellungen"
 
 #: libraries/config/messages.inc.php:404
 msgid "Try to connect without password"
@@ -6962,7 +6954,7 @@ msgstr "Ungültige Anzahl an Spalten im CSV-Import in Zeile %d."
 msgid "DocSQL"
 msgstr "DocSQL"
 
-#: libraries/import/docsql.php:32 libraries/tbl_properties.inc.php:568
+#: libraries/import/docsql.php:32 libraries/tbl_properties.inc.php:567
 #: server_synchronize.php:441 server_synchronize.php:913
 msgid "Table name"
 msgstr "Tabellenname"
@@ -7017,6 +7009,7 @@ msgstr ""
 #, php-format
 msgid "MySQL Spatial Extension does not support ESRI type \"%s\"."
 msgstr ""
+"Der ESRI-Typ \"%s\" wird von MySQL Spatial Extension nicht unterstützt."
 
 #: libraries/import/shp.php:376
 msgid "The imported file does not contain any data"
@@ -7256,7 +7249,7 @@ msgstr "Tschechoslowakisch"
 #: libraries/navigation_header.inc.php:59
 #: libraries/navigation_header.inc.php:60
 msgid "Home"
-msgstr "Home"
+msgstr "Startseite"
 
 #: libraries/navigation_header.inc.php:69
 #: libraries/navigation_header.inc.php:71
@@ -8316,30 +8309,21 @@ msgstr "Primärschlüssel"
 msgid "Fulltext"
 msgstr "Volltext"
 
-#: libraries/tbl_properties.inc.php:535 transformation_overview.php:57
-#, php-format
-msgid ""
-"No description is available for this transformation.<br />Please ask the "
-"author what %s does."
-msgstr ""
-"Für diese Umwandlung ist keine Beschreibung verfügbar.<br />Für weitere "
-"Informationen wenden Sie sich bitte an den Autoren der Funktion %s."
-
-#: libraries/tbl_properties.inc.php:574 tbl_structure.php:652
+#: libraries/tbl_properties.inc.php:573 tbl_structure.php:652
 #, php-format
 msgid "Add %s column(s)"
 msgstr "%s Spalte(n) einfügen"
 
-#: libraries/tbl_properties.inc.php:576 tbl_structure.php:646
+#: libraries/tbl_properties.inc.php:575 tbl_structure.php:646
 msgid "You have to add at least one column."
 msgstr "Sie müssen mindestens eine Spalte hinzufügen."
 
-#: libraries/tbl_properties.inc.php:664 server_engines.php:54
+#: libraries/tbl_properties.inc.php:663 server_engines.php:54
 #: tbl_operations.php:374
 msgid "Storage Engine"
 msgstr "Tabellenformat"
 
-#: libraries/tbl_properties.inc.php:693
+#: libraries/tbl_properties.inc.php:692
 msgid "PARTITION definition"
 msgstr "PARTITION Definition"
 
@@ -8356,6 +8340,15 @@ msgstr "Tabellensuche"
 #: libraries/tbl_select.lib.php:175 tbl_change.php:1000
 msgid "Edit/Insert"
 msgstr "Bearbeiten/Einfügen"
+
+#: libraries/transformations.lib.php:134
+#, php-format
+msgid ""
+"No description is available for this transformation.<br />Please ask the "
+"author what %s does."
+msgstr ""
+"Für diese Umwandlung ist keine Beschreibung verfügbar.<br />Für weitere "
+"Informationen wenden Sie sich bitte an den Autoren der Funktion %s."
 
 #: libraries/transformations/application_octetstream__download.inc.php:10
 msgid ""
@@ -10678,39 +10671,39 @@ msgstr ""
 msgid "The number of threads that are not sleeping."
 msgstr "Anzahl der Prozesse, die nicht schlafen."
 
-#: server_status.php:1551
+#: server_status.php:1557
 msgid "Start Monitor"
 msgstr "Überwachung starten"
 
-#: server_status.php:1560
+#: server_status.php:1566
 msgid "Instructions/Setup"
 msgstr "Einführung/Einrichtung"
 
-#: server_status.php:1565
+#: server_status.php:1571
 msgid "Done rearranging/editing charts"
 msgstr "Umordnen/bearbeiten der Schaubilder beendet"
 
-#: server_status.php:1572 server_status.php:1643
+#: server_status.php:1578 server_status.php:1649
 msgid "Add chart"
 msgstr "Schaubild hinzufügen"
 
-#: server_status.php:1574
+#: server_status.php:1580
 msgid "Rearrange/edit charts"
 msgstr "Schaubilder umordnen/bearbeiten"
 
-#: server_status.php:1578
+#: server_status.php:1584
 msgid "Refresh rate"
 msgstr "Aktualisierungs-Intervall"
 
-#: server_status.php:1583
+#: server_status.php:1589
 msgid "Chart columns"
 msgstr "Schaubild-Spalten"
 
-#: server_status.php:1599
+#: server_status.php:1605
 msgid "Chart arrangement"
 msgstr "Schaubild-Anordnung"
 
-#: server_status.php:1599
+#: server_status.php:1605
 msgid ""
 "The arrangement of the charts is stored to the browsers local storage. You "
 "may want to export it if you have a complicated set up."
@@ -10719,15 +10712,15 @@ msgstr ""
 "Es empfiehlt sich dieses zu exportieren, wenn Sie eine aufwändige Anordnung "
 "eingerichtet haben."
 
-#: server_status.php:1600
+#: server_status.php:1606
 msgid "Reset to default"
 msgstr "Zurücksetzen"
 
-#: server_status.php:1604
+#: server_status.php:1610
 msgid "Monitor Instructions"
 msgstr "Einführung zur Überwachung"
 
-#: server_status.php:1605
+#: server_status.php:1611
 msgid ""
 "The phpMyAdmin Monitor can assist you in optimizing the server configuration "
 "and track down time intensive queries. For the latter you will need to set "
@@ -10742,19 +10735,23 @@ msgstr ""
 "general_log viele Daten produzieren und die Serverauslastung um bis zu 15% "
 "erhöhen kann."
 
-#: server_status.php:1610
+#: server_status.php:1616
 msgid ""
 "Unfortunately your Database server does not support logging to table, which "
 "is a requirement for analyzing the database logs with phpMyAdmin. Logging to "
 "table is supported by MySQL 5.1.6 and onwards. You may still use the server "
 "charting features however."
 msgstr ""
+"Leider unterstützt Ihr Datenbank-Servers keine Protokollierung in eine "
+"Tabelle. Dies ist eine Voraussetzung für die Analyse der Datenbankprotokolle "
+"mit PhpMyAdmin. Protokollierung in eine Tabelle wird von MySQL 5.1.6 und "
+"höher unterstützt. Sie können dennoch die Server Diagramm-Funktionen nutzen."
 
-#: server_status.php:1623
+#: server_status.php:1629
 msgid "Using the monitor:"
 msgstr "Verwendung der Überwachung:"
 
-#: server_status.php:1625
+#: server_status.php:1631
 msgid ""
 "Your browser will refresh all displayed charts in a regular interval. You "
 "may add charts and change the refresh rate under 'Settings', or remove any "
@@ -10765,19 +10762,24 @@ msgstr ""
 "Aktualisierungsintervall ändern oder beliebige Diagramme entfernen, wenn Sie "
 "das Zahnrad-Icon des entsprechenden Schaubilds verwenden."
 
-#: server_status.php:1627
+#: server_status.php:1633
 msgid ""
 "To display queries from the logs, select the relevant time span on any chart "
 "by holding down the left mouse button and panning over the chart. Once "
 "confirmed, this will load a table of grouped queries, there you may click on "
 "any occuring SELECT statements to further analyze them."
 msgstr ""
+"Um Abfragen aus den Logs anzuzeigen, wählen Sie die relevante Zeitspanne in "
+"einem Diagramm durch Drücken der linken Maustaste und markieren Sie einen "
+"Bereich des Diagramms durch Ziehen. Dadurch wird eine Tabelle von "
+"gruppierten Abfragen geladen. Sie können auf jedes SELECT Anweisung klicken, "
+"um diese weiter zu analysieren."
 
-#: server_status.php:1634
+#: server_status.php:1640
 msgid "Please note:"
 msgstr "Bitte beachten Sie:"
 
-#: server_status.php:1636
+#: server_status.php:1642
 msgid ""
 "Enabling the general_log may increase the server load by 5-15%. Also be "
 "aware that generating statistics from the logs is a load intensive task, so "
@@ -10789,91 +10791,89 @@ msgstr ""
 "aufwändiger Prozess ist. Deshalb ist es ratsam, nur einen kleinen Zeitraum "
 "auszuwählen und die gerneral_log nach der Überwachung wieder zu deaktivieren."
 
-#: server_status.php:1648
-#, fuzzy
-#| msgid "Remove chart"
+#: server_status.php:1654
 msgid "Preset chart"
-msgstr "Skala entfernen"
+msgstr "Vordefiniertes Diagramm"
 
-#: server_status.php:1652
+#: server_status.php:1658
 msgid "Status variable(s)"
 msgstr "Status Variable(n)"
 
-#: server_status.php:1654
+#: server_status.php:1660
 msgid "Select series:"
 msgstr "Serie auswählen:"
 
-#: server_status.php:1656
+#: server_status.php:1662
 msgid "Commonly monitored"
 msgstr "Allgemein-überwacht"
 
-#: server_status.php:1671
+#: server_status.php:1677
 msgid "or type variable name:"
 msgstr "oder Variablen-Namen eingeben:"
 
-#: server_status.php:1675
+#: server_status.php:1681
 msgid "Display as differential value"
 msgstr "Den Wert als Unterschied zeigen"
 
-#: server_status.php:1677
+#: server_status.php:1683
 msgid "Apply a divisor"
 msgstr "Divisor hinzufügen"
 
-#: server_status.php:1684
+#: server_status.php:1690
 msgid "Append unit to data values"
 msgstr "Einheiten an Datenwerte anfügen"
 
-#: server_status.php:1690
+#: server_status.php:1696
 msgid "Add this series"
 msgstr "Diese Serie hinzufügen"
 
-#: server_status.php:1692
+#: server_status.php:1698
 msgid "Clear series"
 msgstr "Serien löschen"
 
-#: server_status.php:1695
+#: server_status.php:1701
 msgid "Series in Chart:"
 msgstr "Serien im Schaubild:"
 
-#: server_status.php:1708
+#: server_status.php:1714
 msgid "Log statistics"
 msgstr "Protokoll Statistik"
 
-#: server_status.php:1709
+#: server_status.php:1715
 msgid "Selected time range:"
 msgstr "Ausgewählte Zeit-Spanne:"
 
-#: server_status.php:1714
+#: server_status.php:1720
 msgid "Only retrieve SELECT,INSERT,UPDATE and DELETE Statements"
 msgstr "Rufe nur SELECT, INSERT, UPDATE und DELETE Abfragen ab"
 
-#: server_status.php:1719
+#: server_status.php:1725
 msgid "Remove variable data in INSERT statements for better grouping"
 msgstr ""
 "Lösche Variablen-Werte in INSERT Abfragen um die Gruppierung zu verbessern"
 
-#: server_status.php:1724
+#: server_status.php:1730
 msgid "Choose from which log you want the statistics to be generated from."
 msgstr ""
 "Bitte wählen Sie das Protokoll aus, von dem Statistiken generiert werden "
 "sollen."
 
-#: server_status.php:1726
+#: server_status.php:1732
 msgid "Results are grouped by query text."
 msgstr "Ergebnisse sind nach Abfrage-Text zusammengefasst."
 
-#: server_status.php:1731
+#: server_status.php:1737
 msgid "Query analyzer"
 msgstr "Query Analyzer"
 
-#: server_status.php:1771
+#: server_status.php:1777
 #, php-format
 msgid "%d second"
 msgid_plural "%d seconds"
 msgstr[0] "%d Sekunde"
 msgstr[1] "%d Sekunden"
 
-#: server_status.php:1773
+#: server_status.php:1779
 #, php-format
 msgid "%d minute"
 msgid_plural "%d minutes"
@@ -12285,8 +12285,7 @@ msgstr ""
 
 #: po/advisory_rules.php:47
 msgid "You should upgrade, to a stable version of MySQL 5.5"
-msgstr ""
-"Sie sollten auf eine stabile MySQL Version der 5.1-Reihe aktualisieren."
+msgstr "Sie sollten auf eine stabile MySQL Version der 5.5-Reihe aktualisieren"
 
 #: po/advisory_rules.php:50 po/advisory_rules.php:55 po/advisory_rules.php:60
 msgid "Distribution"
@@ -12303,6 +12302,10 @@ msgid ""
 "distribution. The MySQL manual only is accurate for official MySQL binaries, "
 "not any package distributions (such as RedHat, Debian/Ubuntu etc)."
 msgstr ""
+"Wenn Sie den Quellcode nicht kompiliert haben, kann es sein, dass Sie ein "
+"Paket verwenden, welches durch eine Distribution verändert wurde. Die MySQL-"
+"Dokumentation ist nur für offizielle MySQL Binaries gültig, nicht für Paket-"
+"Distributionen (z.B. RedHat, Debian/Ubuntu, etc)."
 
 #: po/advisory_rules.php:53
 msgid "'source' found in version_comment"
@@ -12345,6 +12348,10 @@ msgid ""
 "so MySQL might not be able to access all of your memory. You might want to "
 "consider installing the 64-bit version of MySQL."
 msgstr ""
+"Ihre Speicherkapazität beträgt mehr als 3 GiB (vorausgesetzt der Server "
+"läuft auf localhost), deshalb kann MySQL vermutlich nicht den ganzen "
+"Speicher benutzen. Es wird empfohlen, dass Sie die 64-bit Version von MySQL "
+"installieren."
 
 #: po/advisory_rules.php:68
 #, php-format
@@ -12366,6 +12373,10 @@ msgid ""
 "and setting {query_cache_type} to 'ON'. <b>Note:</b> If you are using "
 "memcached, ignore this recommendation."
 msgstr ""
+"Der Abfrage-Zwischenspeicher verbessert die Leistung, wenn er korrekt "
+"konfiguriert wurde. Aktivieren Sie ihn indem Sie {query_cache_size} auf ein "
+"zweistelligen MiB-Wert und {query_cache_type} auf 'ON' setzen. <b>Beachten "
+"Sie:</b> Ignorieren Sie diese Empfehlung, wenn Sie memcached benutzen."
 
 #: po/advisory_rules.php:73
 msgid "query_cache_size is set to 0 or query_cache_type is set to 'OFF'"
@@ -12386,6 +12397,11 @@ msgid ""
 "refman/5.5/en/ha-memcached.html\">memcached</a> instead of the MySQL Query "
 "cache, especially if you have multiple slaves."
 msgstr ""
+"Sie verwenden den MySQL-Anfragen-Cache mit einer relativ hohen Traffic-"
+"Datenbank. Es wäre überlegenswert, <a "
+"href=\"http://dev.mysql.com/doc/refman/5.5/en/ha-memcached.html\"> "
+"Memcached</a> statt MySQL Query Cache verwenden vor allem, wenn Sie mehrere "
+"Slaves einsetzen."
 
 #: po/advisory_rules.php:78
 #, php-format
@@ -12438,6 +12454,8 @@ msgid ""
 "The current ratio of free query cache memory to total query cache size is %s"
 "%%. It should be above 80%%"
 msgstr ""
+"Das aktuelle Verhältnis von freiem Abfrage-Zwischenspeicher zur Größe des "
+"gesamten Abfrage-Zwischenspeichers ist %s%%. Es sollte über 80%% betragen"
 
 #: po/advisory_rules.php:90
 msgid "Query cache fragmentation"
@@ -12458,6 +12476,15 @@ msgid ""
 "using this formula: (query_cache_size - qcache_free_memory) / "
 "qcache_queries_in_cache"
 msgstr ""
+"Starke Fragmentierung wird voraussichtlich qcache_lowmem_prunes (weiter) "
+"erhöhen. Dies kann durch viele Leerungen des Query Cache aufgrund von "
+"Speichermangel erfolgen weil {query_cache_size} zu klein gewählt ist. Für "
+"eine sofortige, allerdings kurzlebige Lösung können Sie den Abfragecache "
+"leeren (dieses kann den Abfragecache für eine lange Zeit sperren). "
+"{query_cache_min_res_unit} sorgfältig auf einen niedrigeren Wert einstellen "
+"könnte auch helfen, z.B. können Sie es auf die durchschnittliche Größe von "
+"Abfragen im Cache einstellen mithilfe dieser Formel: (query_cache_size - "
+"qcache_free_memory) / qcache_queries_in_cache"
 
 #: po/advisory_rules.php:93
 #, php-format
@@ -12466,18 +12493,21 @@ msgid ""
 "that the query cache is an alternating pattern of free and used blocks. This "
 "value should be below 20%%."
 msgstr ""
+"Der Cache ist derzeit zu %s%% fragmentiert. 100%% Fragmentierung bedeuten "
+"dass der Abfrage-Cache ein abwechselndes Muster von freien und belegten "
+"Blöcke ist. Dieser Wert sollte unter 20% liegen."
 
 #: po/advisory_rules.php:95
 msgid "Query cache low memory prunes"
-msgstr ""
+msgstr "Abfrage-Cache Leerungen wegen zu wenig Speicher"
 
 #: po/advisory_rules.php:96
-#, fuzzy
-#| msgid "The amount of free memory for query cache."
 msgid ""
 "Cached queries are removed due to low query cache memory from the query "
 "cache."
-msgstr "Freier Speicher im Abfragen-Cache."
+msgstr ""
+"Zwischengespeicherte Abfragen werden aufgrund von mangelndem Speicherplatz "
+"des Abfragen-Zwischenspeichers entfernt."
 
 #: po/advisory_rules.php:97
 msgid ""
@@ -12485,6 +12515,9 @@ msgid ""
 "overhead of maintaining the cache is likely to increase with its size, so do "
 "this in small increments and monitor the results."
 msgstr ""
+"Sie sollten möglicherweise {Query_cache_size} erhöhen, aber denken daran, "
+"das der Aufwand für das Beibehalten des Caches mit seiner Größe erhöht. "
+"Erhöhen Sie den Wert in kleinen Schritten und beobachten Sie das Ergebnis."
 
 #: po/advisory_rules.php:98
 #, php-format
@@ -12492,6 +12525,8 @@ msgid ""
 "The ratio of removed queries to inserted queries is %s%%. The lower this "
 "value is, the better (This rules firing limit: 0.1%%)"
 msgstr ""
+"Das Verhältnis von entfernten Abfragen zu eingefügten Abfragen ist %s%%. Je "
+"niedriger dieser Wert ist, desto besser (diese Regeln löst aus bei 0,1%%)"
 
 #: po/advisory_rules.php:100
 msgid "Query cache max size"
@@ -12520,10 +12555,8 @@ msgid "Current query cache size: %s"
 msgstr "Aktuelle Abfragen-Zwischenspeicher Größe: %s"
 
 #: po/advisory_rules.php:105
-#, fuzzy
-#| msgid "Query results"
 msgid "Query cache min result size"
-msgstr "Abfrageergebnisse"
+msgstr "Minimale Abfragen-Zwischenspeicher Größe"
 
 #: po/advisory_rules.php:106
 msgid ""
@@ -12543,6 +12576,15 @@ msgid ""
 "(often invalidated due to table updates) increasing {query_cache_limit} "
 "might reduce efficiency."
 msgstr ""
+"Verändern von {query_cache_limit} (in der Regel durch erhöhen) kann die "
+"Effizienz steigern. Diese Variable bestimmt die maximale Größe eines "
+"Abfrageergebnis das in den Abfrage-Cache eingefügt werden soll. Wenn es "
+"viele Abfrageergebnisse über 1 MiB gibt die sich auch zwischenspeichern "
+"lassen (viele Lesevorgänge, wenig schreibt) dann kann ein erhöhen von "
+"{query_cache_limit} die Effizienz erhöhen. Während bei viele "
+"Abfrageergebnisse über 1 MiB die nicht sehr gut zwischenspeicherbar sind "
+"(oft aufgrund von Aktualisierungen der Tabelle ungültig) ein Erhöhen von "
+"{query_cache_limit} die Effizienz reduzieren kann."
 
 #: po/advisory_rules.php:108
 msgid "query_cache_limit is set to 1 MiB"
@@ -12561,6 +12603,8 @@ msgid ""
 "Consider increasing sort_buffer_size and/or read_rnd_buffer_size, depending "
 "on your system memory limits"
 msgstr ""
+"Ziehen Sie in Betracht sort_buffer_size und/oder record_rnd_buffer zu "
+"erhöhen, je nach verfügbaren Speicher Ihres Systems"
 
 #: po/advisory_rules.php:113
 #, php-format
@@ -12598,6 +12642,10 @@ msgid ""
 "indexed columns in the ORDER BY clause, as this will result in much faster "
 "sorting"
 msgstr ""
+"Obwohl es nichts auszusetzen gibt an einem hohen Anteil an Zeile Sortierung, "
+"sollten Sie darauf achten, dass die Abfragen, die viel Sortierung verwenden "
+"indizierten Spalten in der ORDER BY-Klausel verwenden, da dies in viel "
+"schnelleren Sortierergebnissen resultiert"
 
 #: po/advisory_rules.php:123
 #, php-format
@@ -12617,6 +12665,9 @@ msgid ""
 "This means that joins are doing full table scans. Adding indexes for the "
 "columns being used in the join conditions will greatly speed up table joins"
 msgstr ""
+"Dies bedeutet, dass joins vollständige Tabellenscans durchführen. Das "
+"Hinzufügen von Indizes für die Spalten die in der Join-Bedingungen "
+"eingesetzt werden resultiert in viel schnelleren Tabellenverknüpfungen"
 
 #: po/advisory_rules.php:128
 #, php-format
@@ -12627,11 +12678,11 @@ msgstr ""
 
 #: po/advisory_rules.php:130
 msgid "Rate of reading first index entry"
-msgstr ""
+msgstr "Lese-Rate erster Indexeintrag"
 
 #: po/advisory_rules.php:131
 msgid "The rate of reading the first index entry is high."
-msgstr ""
+msgstr "Die Lese-Rate des ersten Indexeintrag ist hoch."
 
 #: po/advisory_rules.php:132
 msgid ""
@@ -12642,6 +12693,14 @@ msgid ""
 "scans. Other than that full index scans can only be reduced by rewriting "
 "queries."
 msgstr ""
+"Dies bedeutet in der Regel häufig vollständige Indexscans. Vollständige "
+"Indexscans sind schneller als Tablenscans aber sie kosten viele CPU-Zyklen "
+"in großen Tabellen, wenn diese Tabellen ein große Mengen von "
+"Aktualisierungen und Löschungen haben oder hatten. Ein Ausführen von "
+"\"OPTIMIZE TABLE\" auf diese Tabllen kann die Menge verringern und/oder die "
+"Geschwindigkeit der  vollständige Indexscans beschleunigen. Abgesehen davon "
+"können vollständige Indexscans nur durch umschreiben der Abfragen reduziert "
+"werden."
 
 #: po/advisory_rules.php:133
 #, php-format
@@ -12651,11 +12710,11 @@ msgstr ""
 
 #: po/advisory_rules.php:135
 msgid "Rate of reading fixed position"
-msgstr ""
+msgstr "Lese-Rate fester Positionen"
 
 #: po/advisory_rules.php:136
 msgid "The rate of reading data from a fixed position is high."
-msgstr ""
+msgstr "Die Lese-Rate fester Positionen ist hoch."
 
 #: po/advisory_rules.php:137
 msgid ""
@@ -12663,6 +12722,9 @@ msgid ""
 "scan, including join queries that do not use indexes. Add indexes where "
 "applicable."
 msgstr ""
+"Dies deutet darauf hin, dass viele Abfragen Sortieren und/oder vollständige "
+"Tabellen-Scan benötigen, einschließlich Join-Abfragen die keine Indizes "
+"verwenden. Fügen Sie Indizes hinzu wo zutreffend."
 
 #: po/advisory_rules.php:138
 #, php-format
@@ -12670,30 +12732,34 @@ msgid ""
 "Rate of reading fixed position average: %s, this value should be less than 1 "
 "per hour"
 msgstr ""
+"Durchschnittliche Lese-Rate fester Positionen: %s, dieser Wert sollte "
+"kleiner als 1 pro Stunde sein"
 
 #: po/advisory_rules.php:140
-#, fuzzy
 #| msgid "Where to show the table row links"
 msgid "Rate of reading next table row"
-msgstr "Wo die Datensatz-Links angezeigt werden sollen"
+msgstr "Lese-Rate nächste Tabellenzeile"
 
 #: po/advisory_rules.php:141
-#, fuzzy
 #| msgid "Where to show the table row links"
 msgid "The rate of reading the next table row is high."
-msgstr "Wo die Datensatz-Links angezeigt werden sollen."
+msgstr "Lese-Rate nächste Tabellenzeile ist hoch."
 
 #: po/advisory_rules.php:142
 msgid ""
 "This indicates that many queries are doing full table scans. Add indexes "
 "where applicable."
 msgstr ""
+"Dies deutet darauf hin, dass viele Abfragen Full Table Scans durchführen. "
+"Fügen Sie Indizes hinzu wo zutreffend."
 
 #: po/advisory_rules.php:143
 #, php-format
 msgid ""
 "Rate of reading next table row: %s, this value should be less than 1 per hour"
 msgstr ""
+"Lese-Rate nächste Tabellenzeile: %s, dieser Wert sollte kleiner als 1 pro "
+"Stunde sein"
 
 #: po/advisory_rules.php:145
 msgid "tmp_table_size vs. max_heap_table_size"
@@ -12710,6 +12776,10 @@ msgid ""
 "wish to increase the in-memory table limit you will have to increase the "
 "other value as well."
 msgstr ""
+"Sie haben absichtlich einen Wert geändert: Der Server verwendet den "
+"niedrigeren Wert von beiden um die maximale Größe der Tabellen im "
+"Arbeitsspeicher zu bestimmen. Wenn Sie die Tabelle im Arbeitsspeicher "
+"erhöhen möchten müssen Sie den anderen Wert auch erhöhen."
 
 #: po/advisory_rules.php:148
 #, php-format
@@ -12717,10 +12787,8 @@ msgid "Current values are tmp_table_size: %s, max_heap_table_size: %s"
 msgstr "Aktuelle Belegungen sind: tmp_table_size: %s, max_heap_table_size: %s"
 
 #: po/advisory_rules.php:150
-#, fuzzy
-#| msgid "Where to show the table row links"
 msgid "Percentage of temp tables on disk"
-msgstr "Wo die Datensatz-Links angezeigt werden sollen"
+msgstr "Prozentsatz der temporären Tabellen auf der Festplatte"
 
 #: po/advisory_rules.php:151 po/advisory_rules.php:156
 msgid ""
@@ -12740,6 +12808,14 @@ msgid ""
 "mentioned in the beginning of an <a href=\"http://www.facebook.com/note.php?"
 "note_id=10150111255065841&comments\">Article by the Pythian Group</a>"
 msgstr ""
+"Erhöhen von {max_heap_table_size} und {tmp_table_size} könnten helfen. "
+"Jedoch werden einige temporären Tabellen immer unabhängig vom Wert dieser "
+"Variablen auf den Datenträger geschrieben. Um diese zu verhindern müssen Sie "
+"Ihre Abfragen so umschreiben das es nicht zu diesen Bedingungen kommt "
+"(Innerhalb einer temporären Tabelle: Vorhandensein eines BLOB- oder TEXT-"
+"Spalte oder eine Spalte größer als 512 Bytes) wie am Anfang von <a href=\"htt"
+"p://www.facebook.com/note.php?note_id=10150111255065841&comments\">Artikel "
+"der Pythian Group</a> erwähnt wird"
 
 #: po/advisory_rules.php:153
 #, php-format
@@ -12764,6 +12840,14 @@ msgid ""
 "mentioned in the <a href=\"http://dev.mysql.com/doc/refman/5.5/en/internal-"
 "temporary-tables.html\">MySQL Documentation</a>"
 msgstr ""
+"Erhöhen von {max_heap_table_size} und {tmp_table_size} können helfen. Jedoch "
+"werden einige temporären Tabellen immer unabhängig vom Wert dieser "
+"Variablen auf den Datenträger geschrieben. Um diese zu verhindern müssen Sie "
+"Ihre Abfragen so umschreiben das es nicht zu diesen Bedingungen kommt "
+"(Innerhalb einer temporären Tabelle: Vorhandensein eines BLOB- oder TEXT-"
+"Spalte oder eine Spalte größer als 512 Bytes) wie in der <a "
+"href=\"http://dev.mysql.com/doc/refman/5.5/en/internal-temporary-tables.html"
+"\">MySQL-Dokumentation</a> erwähnt wird"
 
 #: po/advisory_rules.php:158
 #, php-format
@@ -12811,6 +12895,9 @@ msgid ""
 "tables to see if indexes have been removed, or examine queries and "
 "expectations about what indexes are being used."
 msgstr ""
+"Sie müssen möglicherweise Ihren {key_buffer_size} verkleinern, überprüfen "
+"Sie Ihre Tabellen um zu sehen ob Indizes entfernt wurden oder Überprüfen Sie "
+"Abfragen und Erwartungen um zu sehen welche Indizes verwendet werden."
 
 #: po/advisory_rules.php:168
 #, php-format
@@ -12833,189 +12920,203 @@ msgstr ""
 
 #: po/advisory_rules.php:175
 msgid "Percentage of index reads from memory"
-msgstr ""
+msgstr "Prozentsatz der aus dem Speicher gelesenen Indize"
 
 #: po/advisory_rules.php:176
 #, php-format
 msgid "The %% of indexes that use the MyISAM key buffer is low."
 msgstr ""
+"Der %% von Indizes, die den MyISAM Schlüsselpuffer verwenden ist gering."
 
 #: po/advisory_rules.php:177
 msgid "You may need to increase {key_buffer_size}."
-msgstr ""
+msgstr "Sie müssen möglicherweise {Key_buffer_size} erhöhen."
 
 #: po/advisory_rules.php:178
 #, php-format
 msgid "Index reads from memory: %s%%, this value should be above 95%%"
 msgstr ""
+"Prozentsatz der aus dem Speicher gelesenen Indize: %s%%, dieser Wert sollte "
+"größer als 95%% sein"
 
 #: po/advisory_rules.php:180
-#, fuzzy
-#| msgid "Create table"
 msgid "Rate of table open"
-msgstr "Erzeuge Tabelle"
+msgstr "Häufigkeit von Tabellenöffnungen"
 
 #: po/advisory_rules.php:181
-#, fuzzy
-#| msgid "The current number of pending writes."
 msgid "The rate of opening tables is high."
-msgstr "Momentan anstehende Schreizugriffe."
+msgstr "Hohe Anzahl an Tabellen-Öffnungen."
 
 #: po/advisory_rules.php:182
 msgid ""
 "Opening tables requires disk I/O which is costly. Increasing "
 "{table_open_cache} might avoid this."
 msgstr ""
+"Öffnen von Tabellen erfordert Festplatten I/O, welches langsam ist. Erhöhung "
+"von {Table_open_cache} könnte dies vermeiden."
 
 #: po/advisory_rules.php:183
 #, php-format
 msgid "Opened table rate: %s, this value should be less than 10 per hour"
 msgstr ""
+"Häufigkeit von Tabellenöffnungen: %s, dieser Wert sollte weniger als 10 pro "
+"Stunde sein"
 
 #: po/advisory_rules.php:185
-#, fuzzy
 #| msgid "Format of imported file"
 msgid "Percentage of used open files limit"
-msgstr "Dateiformat"
+msgstr "Prozentsatz der verwendeten offene Dateien Grenze"
 
 #: po/advisory_rules.php:186
 msgid ""
 "The number of open files is approaching the max number of open files.  You "
 "may get a \"Too many open files\" error."
 msgstr ""
+"Die Anzahl der offene Dateien nähert sich die maximale Anzahl von geöffneten "
+"Dateien.  Möglicherweise erhalten Sie \"Too many open files\"-Fehler."
 
 #: po/advisory_rules.php:187 po/advisory_rules.php:192
 msgid ""
 "Consider increasing {open_files_limit}, and check the error log when "
 "restarting after changing open_files_limit."
 msgstr ""
+"Sie sollten {open_files_limit} erhöhen, und überprüfen Sie das "
+"Fehlerprotokoll beim Neustart nach der Änderung von open_files_limit."
 
 #: po/advisory_rules.php:188
 #, php-format
 msgid ""
 "The number of opened files is at %s%% of the limit. It should be below 85%%"
 msgstr ""
+"Die Anzahl der geöffneten Dateien ist %s%% des Maximalwerts. Dieser Wert "
+"sollte unter 85%% liegen"
 
 #: po/advisory_rules.php:190
-#, fuzzy
-#| msgid "Format of imported file"
 msgid "Rate of open files"
-msgstr "Dateiformat"
+msgstr "Anzahl der Datei-Öffnungen"
 
 #: po/advisory_rules.php:191
-#, fuzzy
-#| msgid "The number of pending log file fsyncs."
 msgid "The rate of opening files is high."
-msgstr "Anstehende fsyncs für die Protokoll-Datei."
+msgstr "Die Anzahl der Datei-Zugriffe ist hoch."
 
 #: po/advisory_rules.php:193
 #, php-format
 msgid "Opened files rate: %s, this value should be less than 5 per hour"
 msgstr ""
+"Geöffnete Dateien Rate: %s, dieser Wert sollte kleiner als 5 pro Stunde sein"
 
 #: po/advisory_rules.php:195
 #, php-format
 msgid "Immediate table locks %%"
-msgstr ""
+msgstr "Sofortige Tabellensperren %%"
 
 #: po/advisory_rules.php:196 po/advisory_rules.php:201
-#, fuzzy
-#| msgid " number of times that a table lock was acquired immediately."
 msgid "Too many table locks were not granted immediately."
-msgstr "Wie oft eine Tabellensperre sofort erlangt wurde."
+msgstr "Zu viele Tabellensperren wurden nicht sofort gewährt."
 
 #: po/advisory_rules.php:197 po/advisory_rules.php:202
 msgid "Optimize queries and/or use InnoDB to reduce lock wait."
 msgstr ""
+"Optimieren Sie die Abfragen und/oder verwenden InnoDB, um Wartezeit aufgrund "
+"von Sperren zu reduzieren."
 
 #: po/advisory_rules.php:198
 #, php-format
 msgid "Immediate table locks: %s%%, this value should be above 95%%"
-msgstr ""
+msgstr "Sofortige Tabellensperren: %s%%, dieser Wert sollte über 95%% liegen"
 
 #: po/advisory_rules.php:200
 msgid "Table lock wait rate"
-msgstr ""
+msgstr "Tabellen Sperre Warte Rate"
 
 #: po/advisory_rules.php:203
 #, php-format
 msgid "Table lock wait rate: %s, this value should be less than 1 per hour"
 msgstr ""
+"Tabellen Sperre Warte Rate: %s, dieser Wert sollte weniger als 1 pro Stunde "
+"sein"
 
 #: po/advisory_rules.php:205
-#, fuzzy
-#| msgid "Key cache"
 msgid "Thread cache"
-msgstr "Schlüssel-Cache"
+msgstr "Prozess-Zwischenspeicher"
 
 #: po/advisory_rules.php:206
 msgid ""
 "Thread cache is disabled, resulting in more overhead from new connections to "
 "MySQL."
 msgstr ""
+"Prozess-Zwischenspeicher ist deaktiviert, dieses führt zu mehr Overhead bei "
+"neuen Verbindungen zu MySQL."
 
 #: po/advisory_rules.php:207
 msgid "Enable the thread cache by setting {thread_cache_size} > 0."
 msgstr ""
+"Aktivieren Sie den Prozess-Zwischenspeicher, indem Sie {thread_cache_size} > "
+"0 setzen."
 
 #: po/advisory_rules.php:208
 msgid "The thread cache is set to 0"
-msgstr ""
+msgstr "Der Prozess-Zwischenspeicher ist auf 0 gesetzt"
 
 #: po/advisory_rules.php:210
 #, php-format
 msgid "Thread cache hit rate %%"
-msgstr ""
+msgstr "Prozess-Zwischenspeicher Trefferrate %%"
 
 #: po/advisory_rules.php:211
-#, fuzzy
-#| msgid "Tracking is not active."
 msgid "Thread cache is not efficient."
-msgstr "Tracking ist nicht aktiviert."
+msgstr "Ineffizienter Prozess-Zwischenspeicher."
 
 #: po/advisory_rules.php:212
 msgid "Increase {thread_cache_size}."
-msgstr ""
+msgstr "{thread_cache_size} erhöhen."
 
 #: po/advisory_rules.php:213
 #, php-format
 msgid "Thread cache hitrate: %s%%, this value should be above 80%%"
 msgstr ""
+"Prozess-Zwischenspeicher Trefferrate: %s%%, dieser Wert sollte über 80%% "
+"liegen"
 
 #: po/advisory_rules.php:215
 msgid "Threads that are slow to launch"
-msgstr ""
+msgstr "Prozesse die langsam zu starten"
 
 #: po/advisory_rules.php:216
-#, fuzzy
-#| msgid "The number of threads that are not sleeping."
 msgid "There are too many threads that are slow to launch."
-msgstr "Anzahl der Prozesse, die nicht schlafen."
+msgstr "Es gibt zu viele Prozesse die langsam starten."
 
 #: po/advisory_rules.php:217
 msgid ""
 "This generally happens in case of general system overload as it is pretty "
 "simple operations. You might want to monitor your system load carefully."
 msgstr ""
+"Dies geschieht in der Regel bei allgemeine System-Überladung da diese eine "
+"ziemlich einfache Operation ist. Sie sollten Ihre Systemauslastung "
+"sorgfältig überwachen."
 
 #: po/advisory_rules.php:218
 #, php-format
 msgid "%s thread(s) took longer than %s seconds to start, it should be 0"
 msgstr ""
+"%s Pozes(se) brauchten länger als %s Sekunden um zu starten, es sollten 0 "
+"sein"
 
 #: po/advisory_rules.php:220
 msgid "Slow launch time"
-msgstr ""
+msgstr "Langsame Startzeit"
 
 #: po/advisory_rules.php:221
 msgid "Slow_launch_threads is above 2s"
-msgstr ""
+msgstr "slow_launch_threads ist über 2s"
 
 #: po/advisory_rules.php:222
 msgid ""
 "Set slow_launch_time to 1s or 2s to correctly count threads that are slow to "
 "launch"
 msgstr ""
+"Setzen Sie slow_launch_time auf 1s oder 2s um korrekt Prozesse zu zählen die "
+"langsam starten"
 
 #: po/advisory_rules.php:223
 #, php-format
@@ -13023,16 +13124,16 @@ msgid "slow_launch_time is set to %s"
 msgstr "slow_launch_time ist auf %s eingestellt"
 
 #: po/advisory_rules.php:225
-#, fuzzy
-#| msgid "Persistent connections"
 msgid "Percentage of used connections"
-msgstr "Persistente Verbindung"
+msgstr "Prozentsatz der benutzten Verbindungen"
 
 #: po/advisory_rules.php:226
 msgid ""
 "The maximum amount of used connections is getting close to the value of "
 "max_connections."
 msgstr ""
+"Die maximale Menge der verwendeten Verbindungen nähert sich dem Wert von "
+"max_connections."
 
 #: po/advisory_rules.php:227
 msgid ""
@@ -13040,23 +13141,26 @@ msgid ""
 "do not close database handlers properly get killed sooner. Make sure the "
 "code closes database handlers properly."
 msgstr ""
+"Erhöhen Sie max_connections oder verringern Sie wait_timeout so dass "
+"Verbindungen die nicht richtig Datenbank Handler schließen früher beendet "
+"werden. Stellen Sie sicher, dass der Code Datenbank-Handler ordnungsgemäß "
+"schlisst."
 
 #: po/advisory_rules.php:228
 #, php-format
 msgid ""
 "Max_used_connections is at %s%% of max_connections, it should be below 80%%"
 msgstr ""
+"Max_used_connections ist %s%% von max_connections, es sollte unter 80%% "
+"liegen"
 
 #: po/advisory_rules.php:230
-#, fuzzy
-#| msgid "Persistent connections"
 msgid "Percentage of aborted connections"
-msgstr "Persistente Verbindung"
+msgstr "Prozentsatz der abgebrochenen Verbindungen"
 
 #: po/advisory_rules.php:231 po/advisory_rules.php:236
-#, fuzzy
 msgid "Too many connections are aborted."
-msgstr "Zu viele Verbindungen wurden abgebrochen."
+msgstr "Zu viele Verbindungen werden abgebrochen."
 
 #: po/advisory_rules.php:232 po/advisory_rules.php:237
 msgid ""
@@ -13065,33 +13169,39 @@ msgid ""
 "source-of-aborted_connects/\">This article</a> might help you track down the "
 "source."
 msgstr ""
+"Verbindungen sind in der Regel abgebrochen, wenn sie nicht autorisiert "
+"werden können. <a href=\"http://www.mysqlperformanceblog.com/2008/08/23/how-"
+"to-track-down-the-source-of-aborted_connects/\">Dieser Artikel</a> könnte "
+"Ihnen helfen der Quelle auf die Spur zu kommen."
 
 #: po/advisory_rules.php:233
 #, php-format
 msgid "%s%% of all connections are aborted. This value should be below 1%%"
 msgstr ""
+"%s%% aller Verbindungen werden abgebrochen. Dieser Wert sollte unter 1%% "
+"liegen"
 
 #: po/advisory_rules.php:235
-#, fuzzy
 #| msgid "Persistent connections"
 msgid "Rate of aborted connections"
-msgstr "Persistente Verbindung"
+msgstr "Rate der abgebrochenen Verbindungen"
 
 #: po/advisory_rules.php:238
 #, php-format
 msgid ""
 "Aborted connections rate is at %s, this value should be less than 1 per hour"
 msgstr ""
+"Die Rate der abgebrochenen Verbindungen ist %s, dieser Wert sollte weniger "
+"als 1 pro Stunde sein"
 
 #: po/advisory_rules.php:240
-#, fuzzy
 #| msgid "Format of imported file"
 msgid "Percentage of aborted clients"
-msgstr "Dateiformat"
+msgstr "Prozentualen Anteil der abgebrochenen Clienten"
 
 #: po/advisory_rules.php:241 po/advisory_rules.php:246
 msgid "Too many clients are aborted."
-msgstr ""
+msgstr "Zu viele Clienten werden abgebrochen."
 
 #: po/advisory_rules.php:242 po/advisory_rules.php:247
 msgid ""
@@ -13099,26 +13209,32 @@ msgid ""
 "MySQL properly. This can be due to network issues or code not closing a "
 "database handler properly. Check your network and code."
 msgstr ""
+"Clienten werden in der Regel abgebrochen, wenn sie ihre Verbindung zu MySQL "
+"nicht richtig schließen. Dies kann aufgrund von Netzwerkproblemen oder "
+"Quellcode der Datenbank-Handler nicht ordnungsgemäß schließen passieren. "
+"Überprüfen Sie Ihre Netzwerk und Quellcode."
 
 #: po/advisory_rules.php:243
 #, php-format
 msgid "%s%% of all clients are aborted. This value should be below 2%%"
 msgstr ""
+"%s%% aller Clienten werden abgebrochen. Dieser Wert sollte unter 2%% liegen"
 
 #: po/advisory_rules.php:245
-#, fuzzy
 #| msgid "Format of imported file"
 msgid "Rate of aborted clients"
-msgstr "Dateiformat"
+msgstr "Rate der abgebrochenen Clienten"
 
 #: po/advisory_rules.php:248
 #, php-format
 msgid "Aborted client rate is at %s, this value should be less than 1 per hour"
 msgstr ""
+"Die Rate der abgebrochene Clienten ist %s, dieser Wert sollte kleiner als 1 "
+"pro Stunde sein"
 
 #: po/advisory_rules.php:250
 msgid "Is InnoDB disabled?"
-msgstr ""
+msgstr "Ist InnoDB deaktiviert?"
 
 #: po/advisory_rules.php:251
 msgid "You do not have InnoDB enabled."
@@ -13126,25 +13242,25 @@ msgstr "InnoDB ist nicht aktiviert."
 
 #: po/advisory_rules.php:252
 msgid "InnoDB is usually the better choice for table engines."
-msgstr ""
+msgstr "InnoDB ist in der Regel die bessere Wahl für Tabelle Designer."
 
 #: po/advisory_rules.php:253
 msgid "have_innodb is set to 'value'"
-msgstr ""
+msgstr "have_innodb ist auf 'value' eingestellt"
 
 #: po/advisory_rules.php:255
-#, fuzzy
 #| msgid "Buffer pool size"
 msgid "InnoDB log size"
-msgstr "Größe des Puffer-Pools"
+msgstr "InnoDB Protokollgröße"
 
 #: po/advisory_rules.php:256
-#, fuzzy
 #| msgid "The number writes done to the InnoDB buffer pool."
 msgid ""
 "The InnoDB log file size is not an appropriate size, in relation to the "
 "InnoDB buffer pool."
-msgstr "Anzahl der Schreibvorgänge im InnoDB Zwischenspeicher."
+msgstr ""
+"Die InnoDB Protokollgröße ist nicht angemessen in Bezug zu der InnoDB "
+"Pufferpoolgröße."
 
 #: po/advisory_rules.php:257
 #, php-format
@@ -13159,6 +13275,17 @@ msgid ""
 "fine. See also <a href=\"http://mysqldatabaseadministration.blogspot."
 "com/2007/01/increase-innodblogfilesize-proper-way.html\">this blog entry</a>"
 msgstr ""
+"Vor allem auf einem System mit einer Menge von Schreibzugriffen auf InnoDB-"
+"Tabellen sollten Sie innodb_log_file_size auf 25%% von "
+"{innodb_buffer_pool_size} setzen. Jedoch, je größer dieser Wert, desto "
+"länger wird die Wiederherstellungszeit bei Datenbank Abstürzen, so dass "
+"dieser Wert nicht viel höher als 256 MiB gsetzt werden sollte. Bitte "
+"beachten Sie jedoch, dass Sie nicht einfach den Wert dieser Variablen ändern "
+"können. Sie müssen den Server herunterfahren, die InnoDB-Logdateien "
+"löschen, den neuen Wert in my.cnf eintragen, den Server neu starten und dann "
+"das Fehlerprotokoll überprüfen ob alles gut ging. Siehe auch <a "
+"href=\"http://mysqldatabaseadministration.blogspot.com/2007/01/increase-"
+"innodblogfilesize-proper-way.html\">diesen Blog-Eintrag</a>"
 
 #: po/advisory_rules.php:258
 #, php-format
@@ -13166,14 +13293,16 @@ msgid ""
 "Your InnoDB log size is at %s%% in relation to the InnoDB buffer pool size, "
 "it should not be below 20%%"
 msgstr ""
+"Ihre InnoDB-Protokollgröße ist %s%% in Bezug auf die InnoDB Pufferpoolgröße, "
+"es sollte nicht unter 20%% liegen"
 
 #: po/advisory_rules.php:260
 msgid "Max InnoDB log size"
-msgstr ""
+msgstr "Max InnoDB Protokollgröße"
 
 #: po/advisory_rules.php:261
 msgid "The InnoDB log file size is inadequately large."
-msgstr ""
+msgstr "Die InnoDB Protokollgröße ist nicht ausreichend groß."
 
 #: po/advisory_rules.php:262
 #, php-format
@@ -13188,21 +13317,31 @@ msgid ""
 "mysqldatabaseadministration.blogspot.com/2007/01/increase-innodblogfilesize-"
 "proper-way.html\">this blog entry</a>"
 msgstr ""
+"Es üblicherweise ausreichend innodb_log_file_size auf 25%% der Größe von "
+"{Innodb_buffer_pool_size} einzustellen. Eine sehr große innodb_log_file_size "
+"verlangsamt die Wiederherstellungszeit nach einem Datenbank Absturz "
+"erheblich. Siehe auch <a "
+"href=\"http://www.mysqlperformanceblog.com/2006/07/03/choosing-proper-"
+"innodb_log_file_size/\">diesen Artikels</a>. Sie müssen den Server "
+"herunterfahren, die InnoDB-Logdateien löschen, den neuen Wert in my.cnf "
+"eintragen, den Server neu starten und dann das Fehlerprotokoll überprüfen ob "
+"alles gut ging. Siehe auch <a "
+"href=\"http://mysqldatabaseadministration.blogspot.com/2007/01/increase-"
+"innodblogfilesize-proper-way.html\">diesen Blog-Eintrag</a>"
 
 #: po/advisory_rules.php:263
 #, php-format
 msgid "Your absolute InnoDB log size is %s MiB"
-msgstr ""
+msgstr "Ihre absolute InnoDB Protokollgröße ist %s MiB"
 
 #: po/advisory_rules.php:265
-#, fuzzy
 #| msgid "Buffer pool size"
 msgid "InnoDB buffer pool size"
-msgstr "Größe des Puffer-Pools"
+msgstr "Größe des InnoDB Puffer-Pools"
 
 #: po/advisory_rules.php:266
 msgid "Your InnoDB buffer pool is fairly small."
-msgstr ""
+msgstr "Ihr InnoDB Pufferpool ist recht klein."
 
 #: po/advisory_rules.php:267
 #, php-format
@@ -13218,6 +13357,18 @@ msgid ""
 "\"http://www.mysqlperformanceblog.com/2007/11/03/choosing-"
 "innodb_buffer_pool_size/\">this article</a>"
 msgstr ""
+"Der InnoDB-Pufferpool hat tiefgreifende Auswirkungen auf die Leistung für "
+"InnoDB-Tabellen. Weisen Sie dieser Puffer alle Ihren verbleibenden "
+"Arbeitsspeicher zuweisen. Für Datenbankserver, die ausschließlich InnoDB "
+"Tabellen als Speicher verwenden und keine anderen Dienste (z. B. ein "
+"Webserver) ausgeführt, können Sie diesen auf bis zu 80%% Ihres verfügbaren "
+"Speichers festlegen. Wenn dieses nicht der Fall ist, müssen Sie sorgfältig "
+"den Speicherverbrauch von anderen Diensten und nicht-InnoDB-Tabellen "
+"bewerten und stellen Sie diese Variable entsprechend ein. Wenn der Wert zu "
+"hoch ist, startet Ihr System Speicher auf die Festplatte auszulagen, was die "
+"Leistung erheblich senkt. Siehe auch <a "
+"href=\"http://www.mysqlperformanceblog.com/2007/11/03/choosing-"
+"innodb_buffer_pool_size/\">diesen Artikel</a>"
 
 #: po/advisory_rules.php:268
 #, php-format
@@ -13227,16 +13378,19 @@ msgid ""
 "perfectly adequate for your system if you don't have much InnoDB tables or "
 "other services running on the same machine."
 msgstr ""
+"Sie verwenden im Moment %s%% Ihres Speichers für InnoDB Pufferpools. Diese "
+"Regel wird ausgelöst, wenn Sie weniger als 60 %%zuweisen, jedoch kann dieses "
+"völlig ausreichend für Ihr System sein, wenn Sie nicht viel InnoDB Tabellen "
+"haben oder anderen Diensten auf demselben Computer ausgeführt werden."
 
 #: po/advisory_rules.php:270
-#, fuzzy
 #| msgid "max. concurrent connections"
 msgid "MyISAM concurrent inserts"
 msgstr "MyISAM gleichzeitige Einfügeoperationen"
 
 #: po/advisory_rules.php:271
 msgid "Enable concurrent_insert by setting it to 1"
-msgstr ""
+msgstr "Aktivieren Sie concurrent_insert, indem Sie es auf 1 setzen"
 
 #: po/advisory_rules.php:272
 msgid ""
@@ -13244,10 +13398,14 @@ msgid ""
 "writers for a given table. See also <a href=\"http://dev.mysql.com/doc/"
 "refman/5.5/en/concurrent-inserts.html\">MySQL Documentation</a>"
 msgstr ""
+"{Concurrent_insert} auf 1 setzen verringert Konflikte zwischen Lese- und "
+"Schreibzugriffen auf Tabellen. Siehe auch <a "
+"href=\"http://dev.mysql.com/doc/refman/5.5/en/concurrent-inserts.html\">MySQL "
+"Dokumentation</a>"
 
 #: po/advisory_rules.php:273
 msgid "concurrent_insert is set to 0"
-msgstr ""
+msgstr "concurrent_insert ist auf 0 gesetzt"
 
 #~ msgid "Maximum number of records saved in \"table_uiprefs\" table"
 #~ msgstr "Maximale Anzahl der Einträge in der Tabelle \"table_uiprefs\""
@@ -13311,9 +13469,9 @@ msgstr ""
 #~ "column, click the \"Choose column to display\" icon, then click on the "
 #~ "appropriate column name."
 #~ msgstr ""
-#~ "Die Anzeigespalte wird in rosa angezeigt. Um eine Spalte als "
-#~ "Anzeigespalte anzeigen zu lassen oder nicht, klicken Sie auf das Symbol "
-#~ "\"Anzeigespalte wählen\", dann auf den passenden Spaltennamen."
+#~ "Die Anzeigespalte wird in rosa angezeigt. Um eine Spalte als Anzeigespalte "
+#~ "anzeigen zu lassen oder nicht, klicken Sie auf das Symbol \"Anzeigespalte "
+#~ "wählen\", dann auf den passenden Spaltennamen."
 
 #~ msgid ""
 #~ "The Advisor system can provide recommendations on server variables by "
